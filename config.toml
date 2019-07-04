@@ -1,0 +1,6 @@
+baseURL = "https://blog.ctmartin.me/"
+languageCode = "en-us"
+title = "Blog of Christian Martin"
+
+[permalinks]
+  posts = "/:year/:month/:title/"
