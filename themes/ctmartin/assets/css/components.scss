@@ -58,3 +58,23 @@ nav {
     padding: 0 1.5em;
     width: 100%;
 }
+
+.pagination {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    margin-top: 1em;
+
+    .page-item {
+        border-right: none;
+        display: block;
+
+        .page-link, & > span {
+            display: block;
+            padding: 0.15em 0.5em;
+            text-decoration: none;
+        }
+    }
+}
