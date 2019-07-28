@@ -1,0 +1,60 @@
+@import "variables.scss";
+
+header {
+    transition: height 0.5s;
+}
+
+nav {
+    .nav-links {
+        display: none;
+    }
+
+    &.active .nav-links {
+        background: white;
+        display: flex;
+        flex-direction: column;
+        margin-left: -$responsive-gap;
+        padding-left: $responsive-gap;
+        padding-right: $responsive-gap;
+        position: fixed;
+        top: 50px;
+        width: 100%;
+    }
+
+    .nav-toggle-wrapper {
+        align-items: center;
+        display: flex;
+        flex-direction: row-reverse;
+        flex-grow: 1;
+
+        .nav-toggle {
+            height: 32px;
+            width: 32px;
+            
+            &::before {
+                content: '\1D118';
+                left: 4px;
+                position: relative;
+                top: -6px;
+            }
+        }
+    }
+}
+@media screen and (min-width: $responsive-breakpoint) {
+    nav {
+        .nav-links {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .nav-toggle-wrapper {
+            display: none;
+        }
+    }
+}
+
+.fw-block {
+    display: block;
+    padding: 0 1.5em;
+    width: 100%;
+}

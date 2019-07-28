@@ -1,6 +1,26 @@
 baseURL = "https://blog.ctmartin.me/"
+copyright = "2019 Christian Martin"
 languageCode = "en-us"
-title = "Blog of Christian Martin"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+theme = ["ctmartin"]
+title = "Christian Martin's Blog"
 
 [permalinks]
-  posts = "/:year/:month/:title/"
+  blog = "/:year/:month/:title/"
+
+[[menu.main]]
+    name = "Posts"
+    idenfifier = "posts"
+    url = "/"
+    weight = 10
+[[menu.main]]
+    name = "Portfolio"
+    idenfifier = "portfolio"
+    url = "https://ctmartin.me/"
+    weight = 20
+[[menu.main]]
+    name = "About"
+    idenfifier = "about"
+    url = "https://ctmartin.me/about"
+    weight = 30
