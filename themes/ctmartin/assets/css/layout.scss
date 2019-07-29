@@ -8,7 +8,7 @@ body {
 }
 header {
     background: white;
-    border-bottom: 1px solid rgba(0,0,0,0.3);
+    border-bottom: 1px solid rgba(black ,0.3);
     height: 50px;
     position: fixed;
     top: 0;
@@ -31,5 +31,6 @@ main {
 
 footer {
     flex-shrink: 0;
-    margin-top: 10px;
+    margin-top: 5px;
+    padding: 10px 0;
 }

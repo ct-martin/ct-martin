@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6, p, pre {
 }
 
 a, a:link, a:visited {
-    color: lighten(blue, 10%);
+    color: rgba(lighten(blue, 5%), 0.8);
     text-decoration: none;
 }
 a:active, a:hover {
@@ -62,10 +62,15 @@ hr {
     margin: 1em 0;
 }
 
+blockquote {
+    border-left: 2px solid rgba(black, 0.65);
+    padding-left: 1em;
+}
+
 /* Location-specific Typography */
 nav {
     a, a:link, a:visited, a:active, a:hover {
-        color: rgba(0,0,0,0.6);
+        color: rgba(black, 0.6);
         text-decoration: none;
 
         &.nav-brand {
