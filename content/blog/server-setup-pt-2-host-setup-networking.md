@@ -52,7 +52,6 @@ The recommended defaults for updates are fine in both Suricata and pfBlockerNG (
 After configuring the packages you'll want to go into the respective one's update page and run an update.
 You can check if they are running by going to _Status->Services_.
 
-
 ---
 
 _Updates:_
