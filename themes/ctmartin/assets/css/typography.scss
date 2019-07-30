@@ -1,6 +1,6 @@
 @import "variables.scss";
 
-/* Fragments taken from https://github.com/wowthemesnet/mediumish-theme-jekyll */
+/*! Article styling taken from https://github.com/wowthemesnet/mediumish-theme-jekyll under MIT license */
 
 /* General Typography */
 body {
@@ -24,6 +24,15 @@ h6 { font-size: 0.8em; }
 
 ul {
     list-style: disc;
+
+    ul {
+        list-style: circle;
+        margin-left: 1.2em;
+
+        ul {
+            list-style: square;
+        }
+    }
 }
 
 pre, code {
@@ -84,4 +93,43 @@ nav {
 
 article {
     font-family: $font-family-serif;
+
+    figure {
+        border: 10px solid black;
+        background: black;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: max-content;
+
+        img {
+            display: block;
+            max-height: 400px;
+        }
+
+        figcaption {
+            color: $font-color-inverse;
+            display: table-caption;
+            font-size: small;
+            margin-top: 5px;
+            width: -webkit-fill-available;
+            width: -webkit-fit-content;
+            width: -moz-fit-content;
+            width: fit-content;
+
+            a, a:link, a:hover, a:active, a:visited {
+                color: $font-color-inverse;
+                display: inline-block;
+                text-decoration: underline;
+
+                &::before {
+                    content: '(Source: ';
+                }
+
+                &::after {
+                    content: ')';
+                }
+            }
+        }
+    }
 }

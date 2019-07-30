@@ -10,7 +10,7 @@ nav {
     }
 
     &.active .nav-links {
-        background: white;
+        background: $background-color;
         display: flex;
         flex-direction: column;
         margin-left: -$responsive-gap;
