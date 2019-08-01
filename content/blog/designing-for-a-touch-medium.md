@@ -81,7 +81,7 @@ Finally, I can see this being used by illustrative uses. Drawing tablets are fai
 
 In the future I’ll probably find more uses for this hardware, but for now these are the ones I can think of. If you have any other thoughts, feel free to discuss them in the comments below.
 
-* * *
+---
 
 EDIT: While watching reviews for post #6, the usage of rotating so the screens are more than 180deg was mentioned as being able to have a touchscreen facing two people opposite of each other for easy presentation. My hardware is not capable of rotating that far unfortunately, so I won’t be experimenting with that, but it’s also a neat use case.
 

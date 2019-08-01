@@ -164,7 +164,7 @@ assets/main.js
 assets/main.css.js
 ```
 
-Now, add a build script to your `package.json`. Add the following to the `scripts`section:
+Now, add a build script to your `package.json`. Add the following to the `scripts` section:
 
 ```js
 "build": "webpack --mode production",  
