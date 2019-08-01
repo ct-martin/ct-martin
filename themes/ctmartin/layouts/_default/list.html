@@ -5,7 +5,7 @@
         <article>
             <a class="link-passive" href="{{.Permalink}}">
                 <h2>{{.Title}}</h2>
-                {{.Summary}}
+                {{ .Summary | plainify | safeHTML }}
                 <p>({{.Date.Format "2 Jan, 2006"}} - {{.ReadingTime}} min)</p>
             </a>
         </article>
