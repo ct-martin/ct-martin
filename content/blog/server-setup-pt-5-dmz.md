@@ -3,7 +3,6 @@ title: 'Server Setup pt. 5 - DMZ'
 date: Tue, 06 Feb 2018 20:24:32 +0000
 draft: false
 tags: ['Humanitarian Free &amp; Open Source Software', 'Servers']
-slug: 'server-setup-pt-5-dmz'
 ---
 
 A DMZ ("Demilitarized Zone") is an isolated network segment, usually used for public-facing servers to keep anything that may go awry on them from being able to damage the rest of the network.

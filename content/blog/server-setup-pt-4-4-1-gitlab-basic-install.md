@@ -3,7 +3,6 @@ title: 'Server Setup pt. 4-4-1 - GitLab Basic Install'
 date: Thu, 12 Apr 2018 06:36:35 +0000
 draft: false
 tags: ['Humanitarian Free &amp; Open Source Software', 'Servers']
-slug: 'server-setup-pt-4-4-1-gitlab-basic-install'
 ---
 
 Running GitLab behind a proxy requires a bit of setup.

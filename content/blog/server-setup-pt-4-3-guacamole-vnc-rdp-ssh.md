@@ -3,7 +3,6 @@ title: 'Server Setup pt. 4-3 - Guacamole (VNC/RDP/SSH)'
 date: Sat, 17 Feb 2018 22:29:26 +0000
 draft: false
 tags: ['Humanitarian Free &amp; Open Source Software', 'Servers']
-slug: 'server-setup-pt-4-3-guacamole-vnc-rdp-ssh'
 ---
 
 Since I've been playing with a bunch of distros in VMs lately, let's set up some (more) convenient remote access...

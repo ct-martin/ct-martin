@@ -7,7 +7,7 @@ theme = ["ctmartin"]
 title = "Christian Martin's Blog"
 
 [permalinks]
-  blog = "/:year/:month/:title/"
+  blog = "/:year/:month/:slug/"
 
 [[menu.main]]
     name = "Posts"
