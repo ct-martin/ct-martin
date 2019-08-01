@@ -7,7 +7,8 @@
         {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
 
-    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,400i,700,700i|Merriweather:400,400i,700,700i,800|Source+Code+Pro:400,600&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,400i,700,700i|Merriweather:400,400i,700,700i,800|Source+Code+Pro:400,600&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400|Merriweather:400,400i,700,700i,800|Source+Code+Pro:400display=swap" rel="stylesheet">
     {{ $style := resources.Get "css/main.scss" | resources.ToCSS | resources.Minify }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
 
