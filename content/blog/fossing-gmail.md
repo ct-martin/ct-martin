@@ -60,10 +60,8 @@ If you have a mobile email client then you'll want to turn at least turn off not
 
 ---
 
-_Updates:_
-
-_2019/07/28: Content reflow_
-
+_Updates:_  
+_2019/07/28: Content reflow_  
 _2017/02/15:_ After spending a few days using K-9 Mail, I've mostly managed to get the folders to work like Gmail did for the inbox categories on the Gmail mobile app.
 K-9's own docs on this start with "Perhaps most confusing aspect of K-9..." so yeah...
 Anyway, for folder permissions, my inbox is set to "1st Class" for all (display, poll, push, notification).

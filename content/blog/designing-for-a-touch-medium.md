@@ -87,6 +87,5 @@ EDIT: While watching reviews for post #6, the usage of rotating so the screens a
 
 ---
 
-_Updates:_
-
+_Updates:_  
 _2019-07-29: Content reflow & link updates_

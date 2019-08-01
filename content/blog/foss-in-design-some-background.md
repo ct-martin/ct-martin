@@ -63,6 +63,5 @@ As was determined in my last meeting about this, "just start writing \[blog post
 
 ---
 
-_Updates:_
-
+_Updates:_  
 _2019/07/28: Content reflow_

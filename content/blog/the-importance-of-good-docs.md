@@ -49,6 +49,5 @@ In summary, documentation is important, and usability is as important as complet
 
 ---
 
-_Updates:_
-
+_Updates:_  
 _2019-07-29: Content reflow_

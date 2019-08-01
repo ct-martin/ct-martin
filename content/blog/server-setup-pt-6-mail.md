@@ -3,6 +3,7 @@ title: 'Server Setup pt. 6 - Mail'
 date: Wed, 04 Apr 2018 05:04:46 +0000
 draft: false
 tags: ['Servers']
+slug: 'server-setup-pt-6-mail'
 ---
 
 Mail servers are handy, even if you're just using them for internal logging like I am.
@@ -62,6 +63,5 @@ PS: if you read this article and happened to be dissatisfied that they're still 
 
 ---
 
-_Updates:_
-
+_Updates:_  
 _2019-07-29: Content reflow_

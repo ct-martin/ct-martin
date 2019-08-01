@@ -35,6 +35,5 @@ Finally, I think that Eghbal's look into the future of FOSS is insightful, and s
 
 ---
 
-_Updates:_
-
+_Updates:_  
 _2019/07/28: Content reflow_

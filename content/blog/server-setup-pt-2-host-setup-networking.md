@@ -54,8 +54,6 @@ You can check if they are running by going to _Status->Services_.
 
 ---
 
-_Updates:_
-
-_2019-07-28: Content reflow & link updates_
-
+_Updates:_  
+_2019-07-28: Content reflow & link updates_  
 _2019-01-17: I'll be making a lot of changes to this, particularly for the blacklists. Another thing I've needed to set up on some networks is Gateway Monitoring, you can find details in the pfSense docs or keep an eye out for the re-write of this post._

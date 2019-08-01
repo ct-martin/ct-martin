@@ -78,6 +78,5 @@ Since they do promote the Docker image as the recommended way to use CODE, it mi
 
 ---
 
-_Updates:_
-
+_Updates:_  
 _2019/07/28: Content reflow_

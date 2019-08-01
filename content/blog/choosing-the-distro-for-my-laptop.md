@@ -51,6 +51,5 @@ Of course, more VM testing is needed before this gets finalized, and I also need
 
 ---
 
-_Updates:_
-
+_Updates:_  
 _2019/07/28: Content reflow_

@@ -70,6 +70,5 @@ All of the reflection parts of this is not to say FOSS is bad but also illustrat
 
 ---
 
-_Updates:_
-
+_Updates:_  
 _2019/07/28: Content reflow_

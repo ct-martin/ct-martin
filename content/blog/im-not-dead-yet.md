@@ -40,6 +40,5 @@ Well, the posts are scheduled and I'm going back to being buried for a couple we
 
 ---
 
-_Updates:_
-
+_Updates:_  
 _2019-07-29: Content reflow & link updates_

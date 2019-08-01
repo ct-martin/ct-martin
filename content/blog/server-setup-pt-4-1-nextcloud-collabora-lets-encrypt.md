@@ -51,8 +51,6 @@ This will also have the advantage of allowing for clean syncing of Notes, Tasks,
 
 ---
 
-_Updates:_
-
-_2019/07/08: Content reflow_
-
+_Updates:_  
+_2019/07/08: Content reflow_  
 _2018-04-12: More sensical cron timings as evidenced by my cert expiring..._

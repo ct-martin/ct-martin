@@ -34,6 +34,5 @@ Ultimately this article fails fixing the issue, but hopefully helps is figuring 
 
 ---
 
-_Updates:_
-
+_Updates:_  
 _2019-07-29: Content reflow_

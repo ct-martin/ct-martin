@@ -54,12 +54,8 @@ Setting up all this infrastructure can be a hassle, but it'll pay off.
 
 ---
 
-_Updates:_
-
-_2019/07/28: Content reflow_
-
-_2018/04/04: Add note on Let's Encrypt verification methods_
-
-_2018/02/17: Forgot to mention the one-node Docker swarm_
-
+_Updates:_  
+_2019/07/28: Content reflow_  
+_2018/04/04: Add note on Let's Encrypt verification methods_  
+_2018/02/17: Forgot to mention the one-node Docker swarm_  
 _2018/01/25: Added note on update quirks_

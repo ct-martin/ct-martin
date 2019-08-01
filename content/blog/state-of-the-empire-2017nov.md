@@ -16,6 +16,5 @@ So it's about time that I wrote a post here. Admittedly, this blog has been "liv
 
 ---
 
-_Updates:_
-
-2019/07/28: Update link
+_Updates:_  
+_2019-07-28: Update link_

@@ -80,6 +80,5 @@ _Obligatory disclaimer: I am not a lawyer and nothing here should be taken as le
 
 ---
 
-_Updates:_
-
+_Updates:_  
 _2019/07/28: Content reflow_

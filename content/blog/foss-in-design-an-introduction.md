@@ -43,6 +43,5 @@ For this project it'll just mean that my work is easier and this project gets cl
 
 ---
 
-_Updates:_
-
+_Updates:_  
 _2019/07/28: Content reflow_

@@ -25,6 +25,5 @@ Further posts will talk about designing for this sort of medium, the debugging o
 
 ---
 
-_Updates:_
-
+_Updates:_  
 _2019/07/29: Content reflow_
