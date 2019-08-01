@@ -1,3 +1,4 @@
+# MIT License: https://gitlab.com/pages/hugo/blob/master/LICENSE
 # All available Hugo versions are listed here: https://gitlab.com/pages/hugo/container_registry
 image: registry.gitlab.com/pages/hugo/hugo_extended:latest
 
