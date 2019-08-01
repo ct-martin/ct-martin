@@ -66,4 +66,4 @@ Thus, if at first you can't succeed, start small, and you can get there eventual
 
 _Updates:_
 
-_2019-07-29: Content reflow & link updates_
+_2019-07-29: Content reflow_

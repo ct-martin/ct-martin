@@ -30,4 +30,4 @@ That's all for now! Future improvements will include GitLab Pages and using my n
 
 _Updates:_
 
-_2019-07-29: Content reflow & link updates_
+_2019-07-29: Content reflow_

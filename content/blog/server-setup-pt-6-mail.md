@@ -64,4 +64,4 @@ PS: if you read this article and happened to be dissatisfied that they're still 
 
 _Updates:_
 
-_2019-07-29: Content reflow & link updates_
+_2019-07-29: Content reflow_
