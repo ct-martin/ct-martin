@@ -1,9 +1,10 @@
 @import "variables.scss";
 
+
+// Header & Nav
 header {
     transition: height 0.5s;
 }
-
 nav {
     .nav-links {
         display: none;
@@ -53,12 +54,14 @@ nav {
     }
 }
 
+// Block/Card-like
 .fw-block {
     display: block;
     padding: 0 1.5em;
     width: 100%;
 }
 
+// Pagination
 .pagination {
     align-items: center;
     display: flex;
@@ -75,6 +78,23 @@ nav {
             display: block;
             padding: 0.15em 0.5em;
             text-decoration: none;
+        }
+    }
+}
+
+// Figures/Images
+
+
+@media screen and (min-width: $responsive-breakpoint) {
+    article {
+        .img-wrap {
+            display: block;
+            margin: 15px auto;
+            width: max-content;
+    
+            figure {
+                display: inline-block;
+            }
         }
     }
 }
