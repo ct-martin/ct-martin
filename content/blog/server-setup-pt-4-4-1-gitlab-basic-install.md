@@ -16,7 +16,9 @@ In the admin panel you're going to want to go to the Settings section and at the
 
 It's also possible to hook up SMTP to a mail server (as done in [part 5 of this series](https://blog.ctmartin.me/2018/04/server-setup-pt-5-mail/)). With the internal Mail-in-a-Box, TLS didn't quite work. I had success with the following settings though:
 
-![](/wp-content/uploads/2018/04/Capture.png)
+{{< figure
+    src="/wp-content/uploads/2018/04/Capture.png"
+>}}
 
 combined with the appropriate settings for:
 ```
