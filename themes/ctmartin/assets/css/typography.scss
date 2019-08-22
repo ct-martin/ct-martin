@@ -96,30 +96,28 @@ article {
     font-family: $font-family-serif;
 
     figure {
-        border: 10px solid black;
-        background: black;
         display: block;
         margin: 15px auto;
         max-width: 100%;
-        width: max-content;
+        text-align: center;
 
         img {
             display: block;
+            margin: 0 auto;
             max-height: 400px;
         }
 
         figcaption {
-            color: $font-color-inverse;
-            display: table-caption;
+            clear: both;
             font-size: smaller;
-            margin-top: 5px;
-            width: -webkit-fill-available;
-            width: -webkit-fit-content;
-            width: -moz-fit-content;
-            width: fit-content;
+            margin: 0 1.2em;
+
+            p {
+                margin: 0.5em 0 0 0;
+            }
 
             a, a:link, a:hover, a:active, a:visited {
-                color: $font-color-inverse;
+                color: $font-color;
                 display: inline-block;
                 text-decoration: underline;
 

@@ -88,12 +88,25 @@ nav {
 @media screen and (min-width: $responsive-breakpoint) {
     article {
         .img-wrap {
-            display: block;
+            display: flex;
+            flex-direction: row;
             margin: 15px auto;
-            width: max-content;
-    
+            width: 100%;
+
             figure {
-                display: inline-block;
+                margin: 0 auto;
+            }
+
+            &.has-two figure {
+                width: 50%;
+            }
+
+            &.has-three figure {
+                width: 33.33%;
+            }
+
+            &.has-four figure {
+                width: 25%;
             }
         }
     }

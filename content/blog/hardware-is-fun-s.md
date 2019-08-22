@@ -27,7 +27,7 @@ The BIOS has a built-in virtual keyboard that stays up until you boot into an op
 
 The CPU is ok by 2018 standards, but a too slow for moderately intensive usage. From a fresh Windows 7 install the decrease in performance as all the Windows updates install was very noticeable. When drawing in Krita I was noticing the lines break, although I’ve see in some reviews since then that using a stylus can sometimes confuse it.
 
-<div class="img-wrap">
+<div class="img-wrap has-two">
     {{< figure
         caption = "Chrome is open, but the video was paused the entire time I was drawing the \"Hello\""
         src = "https://lh4.googleusercontent.com/haZNxGf7ndnlQdFdVSqDUxLCZhnvILJM_Uiv_cC-ciXf6yrNirEe2VZotT2FiFGeu6hHt6WJJTv8QgsksOe6lwiMRGutEA-4N6rzHENZqoxdsO4TTBLeiL7QdGlNVrFZeTgOb0y4"
