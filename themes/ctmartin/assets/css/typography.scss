@@ -59,13 +59,6 @@ a:active, a:hover {
 a.disabled, .disabled a {
     color: $font-color;
 }
-a.link-passive {
-    color: $font-color;
-
-    &:hover {
-        text-decoration: none;
-    }
-}
 
 hr {
     color: $font-color;
@@ -90,7 +83,6 @@ nav {
         }
     }
 }
-    
 
 article {
     font-family: $font-family-serif;

@@ -6,6 +6,9 @@ pygmentsCodeFencesGuessSyntax = true
 theme = ["ctmartin"]
 title = "Christian Martin's Blog"
 
+[params]
+  sourceurl = "https://github.com/ct-martin/blog.ctmartin.me/"
+
 [permalinks]
   blog = "/:year/:month/:filename/"
 

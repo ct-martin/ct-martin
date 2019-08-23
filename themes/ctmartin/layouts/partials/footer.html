@@ -1,3 +1,10 @@
 <footer class="container">
-    <small>&copy; {{ .Site.Copyright }}</small>
+    <div>
+        <small>&copy; {{ .Site.Copyright }}</small>
+    </div>
+    <div>
+        {{ if $.Site.Params.sourceurl }}
+            <small><a href="{{$.Site.Params.sourceurl}}" target="_blank">Source</a></small>
+        {{ end }}
+    </div>
 </footer>

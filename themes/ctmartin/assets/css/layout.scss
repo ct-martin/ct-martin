@@ -27,10 +27,36 @@ nav {
 }
 main {
     flex: 1 0 auto;
+
+    article.article-list {
+        margin-bottom: 1.6em;
+
+        a {
+            color: $font-color;
+            display: block;
+            width: 100%;
+        
+            &:hover {
+                text-decoration: none;
+            }
+
+            p:last-child {
+                font-size: 0.9em;
+            }
+        }
+    }
 }
 
 footer {
     flex-shrink: 0;
     margin-top: 5px;
     padding: 10px 0;
+
+    div {
+        float: right;
+
+        &:first-child {
+            float: left;
+        }
+    }
 }
