@@ -6,6 +6,10 @@ pygmentsCodeFencesGuessSyntax = true
 theme = ["ctmartin"]
 title = "Christian Martin's Blog"
 
+[outputs]
+  home = ["HTML", "AMP", "RSS"]
+  page = ["HTML", "AMP"]
+
 [params]
   sourceurl = "https://github.com/ct-martin/blog.ctmartin.me/"
 
