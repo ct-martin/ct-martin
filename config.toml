@@ -1,11 +1,12 @@
 baseURL = "https://blog.ctmartin.me/"
-copyright = "2019 Christian Martin"
+copyright = "© 2019 Christian Martin"
 disableHugoGeneratorInject = true
 languageCode = "en-us"
 paginatePath = ""
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 theme = ["ctmartin"]
+title = "Christian Martin's Blog"
 
 [Authors.ctmartin]
   given_name = "Christian"
@@ -24,7 +25,6 @@ theme = ["ctmartin"]
   author = "Christian Martin"
   description = "Christian Martin's Blog"
   sourceurl = "https://github.com/ct-martin/blog.ctmartin.me/"
-  title = "Christian Martin's Blog"
 
 [permalinks]
   blog = "/:year/:month/:filename/"
