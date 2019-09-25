@@ -37,10 +37,10 @@ title = "Christian Martin's Blog"
 [[menu.main]]
     name = "Portfolio"
     idenfifier = "portfolio"
-    url = "https://ctmartin.me/"
+    url = "https://ctmartin.dev/"
     weight = 20
 [[menu.main]]
     name = "About"
     idenfifier = "about"
-    url = "https://ctmartin.me/about"
+    url = "https://ctmartin.dev/about"
     weight = 30
