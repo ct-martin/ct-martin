@@ -10,12 +10,12 @@ After all, remembering semi-arbitrary strings isn't fun, and I'm currently runni
 
 <!--more-->
 
-Guacamole is going to be running on the Docker host I set up in [part 3](https://blog.ctmartin.me/2018/01/server-setup-pt-3-more-systems/) that runs Portainer.
+Guacamole is going to be running on the Docker host I set up in [part 3]({{< ref "/blog/server-setup-pt-3-more-systems.md" >}}) that runs Portainer.
 The [Guacamole docs for Docker](https://guacamole.apache.org/doc/gug/guacamole-docker.html) are relatively straightforward, but they aren't perfect, and I'm modifying them slightly.
 I want Guacamole to be always running, and this works perfectly since I have my one-node Docker swarm.
 
 I created two services for the two Guacamole Docker services, with replicas set to 1 (this makes sure there is always 1 instance of Guacamole running), and ports forwarded.
-Additionally, I opted to use the MySQL (MariaDB) instance on my data VM (mentioned offhand in [pt. 4-1](https://blog.ctmartin.me/2018/02/server-setup-pt-4-1-nextcloud-collabora-lets-encrypt/); it's just a normal install).
+Additionally, I opted to use the MySQL (MariaDB) instance on my data VM (mentioned offhand in [pt. 4-1]({{< ref "/blog/server-setup-pt-4-1-nextcloud-collabora-lets-encrypt.md" >}}); it's just a normal install).
 
 Thus, for environment variables in the `guacamole` container (not `guacd`) I added `GUACD_HOSTNAME` set to the Docker host's hostname, and `MYSQL_HOSTNAME`, `MYSQL_DATABASE`, `MYSQL_USER`, & `MYSQL_PASSWORD` to the relevant details.
 

@@ -9,7 +9,7 @@ After more work than I'd like, I have Nextcloud & Collabora Office set up. I ha
 
 <!--more-->
 
-To prevent constantly linking that article (pt. 4-2 of server setup), I'm going to just link it just once, [here](https://blog.ctmartin.me/2018/01/server-setup-pt-4-2-collabora-package/).
+To prevent constantly linking that article (pt. 4-2 of server setup), I'm going to just link it just once, [here]({{< ref "/blog/server-setup-pt-4-2-collabora-package.md" >}}).
 Also, as a reminder, my internal `i.ctmartin.me` subdomain is not publically accessible.
 I opted for a dedicated VM for my data services.
 

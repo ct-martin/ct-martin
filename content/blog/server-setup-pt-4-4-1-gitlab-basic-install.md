@@ -14,7 +14,7 @@ Before you're going to be able to load the webpage to continue setup, you're goi
 
 In the admin panel you're going to want to go to the Settings section and at the very bottom form on "Allow requests to the local network from hooks and services" if you have any plans to use CI/CD with this (since I'm assuming that you're setting it up on an internal network).
 
-It's also possible to hook up SMTP to a mail server (as done in [part 5 of this series](https://blog.ctmartin.me/2018/04/server-setup-pt-5-mail/)). With the internal Mail-in-a-Box, TLS didn't quite work. I had success with the following settings though:
+It's also possible to hook up SMTP to a mail server (as done in [part 5 of this series]({{< ref "/blog/server-setup-pt-6-mail.md" >}})). With the internal Mail-in-a-Box, TLS didn't quite work. I had success with the following settings though:
 
 {{< figure
     src="/wp-content/uploads/2018/04/Capture.png"
