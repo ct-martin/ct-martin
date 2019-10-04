@@ -35,6 +35,11 @@ title = "Christian Martin's Blog"
     url = "/"
     weight = 10
 [[menu.main]]
+    name = "Tags"
+    idenfifier = "tags"
+    url = "/tags"
+    weight = 11
+[[menu.main]]
     name = "Portfolio"
     idenfifier = "portfolio"
     url = "https://ctmartin.dev/"
