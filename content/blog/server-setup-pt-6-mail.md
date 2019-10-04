@@ -3,7 +3,7 @@ title: 'Server Setup pt. 6 - Mail'
 date: Wed, 04 Apr 2018 05:04:46 +0000
 draft: false
 tags: ['Servers']
-alias:
+aliases:
   - "/2018/04/server-setup-pt-5-mail"
 ---
 
