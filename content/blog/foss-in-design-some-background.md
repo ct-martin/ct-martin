@@ -57,7 +57,7 @@ I've also near-completed my personal FOSS suite for my own work.
 
 ## So what's next?
 
-I've gotten down (on paper) all the things that were touched upon previously in conversations and am now in the process of turning that into something readable (you can read the introduction [here](https://blog.ctmartin.me/2018/03/foss-in-design-an-introduction/)).
+I've gotten down (on paper) all the things that were touched upon previously in conversations and am now in the process of turning that into something readable (you can read the introduction [here]({{< ref "/blog/foss-in-design-an-introduction.md" >}}).
 Additionally, I've started to do an in-depth look at how to best accomplish the goals of this project.
 As was determined in my last meeting about this, "just start writing \[blog posts\]."
 

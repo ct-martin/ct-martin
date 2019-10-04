@@ -5,7 +5,7 @@ draft: false
 tags: ['599 - Dual-touch Design']
 ---
 
-As previously discussed, I’m building an experience surrounding the [dual-touchscreen laptops](https://blog.ctmartin.me/2018/11/what-is-that-followed-by-why-would-you/) I have. The chosen experience is Battleship, due to the pre-existing similarities in the non-digital game
+As previously discussed, I’m building an experience surrounding the [dual-touchscreen laptops]({{< ref "/blog/what-is-that-followed-by-why-would-you.md" >}}) I have. The chosen experience is Battleship, due to the pre-existing similarities in the non-digital game
 
 <!--more-->
 

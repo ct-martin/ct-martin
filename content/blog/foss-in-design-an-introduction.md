@@ -5,7 +5,7 @@ draft: false
 tags: ['FOSS', 'FOSS in Design']
 ---
 
-This project stems from an in-depth discussion ([explained here](https://blog.ctmartin.me/2018/03/foss-in-design-some-background/)) about the lack of FOSS being used within RIT's design programs.
+This project stems from an in-depth discussion ([explained here]({{< ref "/blog/foss-in-design-some-background.md" >}}) about the lack of FOSS being used within RIT's design programs.
 More specifically, this project will be aimed at students, who have a very short time frame for work and already have some base knowledge of relevant concepts.
 I intend for this project to be applicable outside of students but when making priorities the student audience will be the most important consideration (when relevant).
 I feel that trying to bridge the gap is the most effective way to beget usage, as opposed to trying to completely retrain users or rewrite software.

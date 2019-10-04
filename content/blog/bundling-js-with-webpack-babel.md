@@ -2,6 +2,8 @@
 title: 'Bundling JS with Webpack & Babel'
 date: Wed, 27 Feb 2019 03:06:30 +0000
 draft: false
+related:
+  - "/blog/ci-cd-with-gitlab.md"
 tags: ['FOSS', 'Programming', 'Web Dev']
 ---
 
@@ -173,7 +175,7 @@ Now, add a build script to your `package.json`. Add the following to the `script
 
 Finally, update your page to use the bundles. Remove all `<script>` and `<style>` tags that load your `main.jsx`, `utils.jsx`, React, Bootstrap, and their dependencies. Then, add two `<script>` tags that load `/assets/main.js` and `/assets/main.css.js`.
 
-Congrats! You're done! In the next part I'll talk about [Continuous Integration and Continuous Deployment](https://blog.ctmartin.me/?p=296), which will make deploying this code even easier.
+Congrats! You're done! In the next part I'll talk about [Continuous Integration and Continuous Deployment]({{< ref "/blog/bundling-js-with-webpack-babel.md" >}}), which will make deploying this code even easier.
 
 ---
 

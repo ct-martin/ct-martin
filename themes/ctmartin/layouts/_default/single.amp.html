@@ -1,7 +1,3 @@
 {{ define "main" }}
-    <article>
-        <h1>{{.Title}}</h1>
-        <i>{{.Date.Format "2 Jan, 2006"}} &mdash; {{.ReadingTime}} min</i>
-        {{ .Content }}
-    </article>
+    {{ partial "page" . }}
 {{ end }}

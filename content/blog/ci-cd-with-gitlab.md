@@ -2,6 +2,8 @@
 title: 'CI & CD with GitLab'
 date: Wed, 27 Feb 2019 03:01:38 +0000
 draft: false
+related:
+  - "/blog/bundling-js-with-webpack-babel.md"
 tags: ['Servers', 'Software', 'Web Dev']
 ---
 
@@ -60,7 +62,7 @@ Next, we define this CI Pipeline as a two-step process: testing and deploying
 The test is simple. First, we tell the CI to use Node.js 10.x Docker image and have it install dependencies. Then, we run the `npm test` and `npm build` commands. These commands should be specified in your `package.json`. Here are the full list of commands I personally use for testing, and why:
 
 *   `npm test`: I use ESlint to do static code checking. It helps ensure best practices in syntax and optimization. Thus, it can also prevent a number of security issues
-*   `npm build`: there's no point in deploying if the code isn't going to run. Do a test run of building the code before we push it. I have another article on [Bundling JS with Webpack & Babel](https://blog.ctmartin.me/?p=295) where I talk about how to set up building
+*   `npm build`: there's no point in deploying if the code isn't going to run. Do a test run of building the code before we push it. I have another article on [Bundling JS with Webpack & Babel]({{< ref "/blog/bundling-js-with-webpack-babel.md" >}}) where I talk about how to set up building
 *   `npm audit`: prevent pushing of known vulnerable (insecure) packages. If this fails, `npm update` usually fixes any issues
 *   `npm run license-audit`: this one I don't normally use, but we need it for the project I'm doing this on. I use the NPM package `license-checker` with the `--onlyAllow` flag to ensure that we know all of the different licenses used on the project. If a dependency with a new license gets added that's not on the list, this will fail.
 
@@ -88,7 +90,7 @@ Finally, we we need to tell GitLab our Heroku API key so it has permisison to de
 
 In GitLab, go to `Settings > CI/CD` and expand the `Environment variable` section. Add a variable called `HEROKU_API_KEY` and put the API key in the "Input variable value" field. The "Protected" flag allows you to only expose the API key to branches that use Branch Protection, thus making it less likely to be exposed. I recommend this setting. If you use it, you'll need to add the `master` and `staging` branches to the list in your repo's `Settings > Repository > Protected Branches` section. Note that this prevents force-pushing to branches, which may be a problem if you really like rebasing.
 
-That was fairly painless. Now, when you push to any branch it will run CI tests and when you push to `master` or `staging` it will automatically deploy to Heroku for you! Combined with [a decent build script](https://blog.ctmartin.me/?p=295), this has made my life a LOT easier on the project I'm working on.
+That was fairly painless. Now, when you push to any branch it will run CI tests and when you push to `master` or `staging` it will automatically deploy to Heroku for you! Combined with [a decent build script]({{< ref "/blog/bundling-js-with-webpack-babel.md" >}}), this has made my life a LOT easier on the project I'm working on.
 
 ---
 

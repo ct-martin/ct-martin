@@ -1,0 +1,17 @@
+<article>
+    <h1>{{.Title}}</h1>
+    <i>{{.Date.Format "2 Jan, 2006"}} &mdash; {{.ReadingTime}} min</i>
+    {{ .Content }}
+</article>
+<aside>
+    {{ with .Param "related" }}
+        <hr />
+        <hr />
+        <h1>Related Content</h1>
+        {{ range . }}
+            {{ with $.Site.GetPage . }}
+                {{ partial "list-item-article" . }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+</aside>
