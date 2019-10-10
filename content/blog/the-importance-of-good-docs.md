@@ -2,7 +2,7 @@
 title: 'The importance of good docs'
 date: Fri, 20 Apr 2018 03:34:44 +0000
 draft: false
-tags: ['FOSS', 'Humanitarian Free &amp; Open Source Software']
+tags: ['FOSS', 'Humanitarian Free & Open Source Software']
 ---
 
 This post has come about from a couple really bad experiences with documentation this week, and what I found frustrating in those experiences.

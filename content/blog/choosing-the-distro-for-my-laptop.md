@@ -2,7 +2,7 @@
 title: 'Choosing the distro for my laptop & workstation VM'
 date: Wed, 14 Feb 2018 05:59:13 +0000
 draft: false
-tags: ['*nix', 'Humanitarian Free &amp; Open Source Software', 'Tech']
+tags: ['*nix', 'Humanitarian Free & Open Source Software', 'Tech']
 ---
 
 Currently, I'm running Windows on my laptop, and it's well overdue that I switch to Linux (for a variety of reasons even beyond FOSS... security & resource usage for example...). Additionally, I need a workstation VM for heavier lifting that I can remotely access to do stuff. Here's the thought process that went into choosing the distro & desktop environment combos that I'm going to be switching to:

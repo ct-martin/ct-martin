@@ -2,7 +2,7 @@
 title: 'Identifying how broken the Matrix bridge is'
 date: Wed, 25 Apr 2018 23:25:27 +0000
 draft: false
-tags: ['Humanitarian Free &amp; Open Source Software']
+tags: ['Humanitarian Free & Open Source Software']
 ---
 
 This post is as a result of multiple failures of the Matrix<->Freenode bridge recently, and what I've learned using Matrix daily for several months.

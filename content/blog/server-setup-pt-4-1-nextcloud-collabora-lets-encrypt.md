@@ -2,7 +2,7 @@
 title: 'Server Setup pt. 4-1 - Nextcloud, Collabora, Let''s Encrypt'
 date: Sat, 17 Feb 2018 21:25:47 +0000
 draft: false
-tags: ['Humanitarian Free &amp; Open Source Software', 'Servers']
+tags: ['Humanitarian Free & Open Source Software', 'Servers']
 ---
 
 After more work than I'd like, I have Nextcloud & Collabora Office set up. I had a lot of issues running Collabora as a package during this.

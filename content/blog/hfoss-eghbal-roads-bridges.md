@@ -2,7 +2,7 @@
 title: '[HFOSS] Eghbal "Roads and Bridges"'
 date: Mon, 05 Mar 2018 22:31:19 +0000
 draft: false
-tags: ['Humanitarian Free &amp; Open Source Software']
+tags: ['Humanitarian Free & Open Source Software']
 ---
 
 Nadia Eghbal's ["Roads and Bridges"](https://www.fordfoundation.org/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/) is an investigation into the Free & Open Source code that backs the digital world we know today, and the troubles that it faces.

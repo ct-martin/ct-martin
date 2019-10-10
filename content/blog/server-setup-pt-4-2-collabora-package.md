@@ -2,7 +2,7 @@
 title: 'Server Setup pt. 4-2 - Running Collabora Office as a package (also a "Late Night Rant")'
 date: Sat, 27 Jan 2018 02:37:26 +0000
 draft: false
-tags: ['Humanitarian Free &amp; Open Source Software', 'Late Night Rants', 'Servers']
+tags: ['Humanitarian Free & Open Source Software', 'Late Night Rants', 'Servers']
 ---
 
 In addition to being a guide on running Collabora Office/Online as a package instead of a Docker image, this is the first blog version of my late night rants in the #rit-foss Freenode channel.

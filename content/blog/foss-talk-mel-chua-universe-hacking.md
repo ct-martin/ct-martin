@@ -2,7 +2,7 @@
 title: 'FOSS Talk: Mel Chua - "Universe Hacking"'
 date: Sat, 17 Feb 2018 23:46:42 +0000
 draft: false
-tags: ['FOSS', 'Humanitarian Free &amp; Open Source Software']
+tags: ['FOSS', 'Humanitarian Free & Open Source Software']
 ---
 
 Reflections on Mel Chua's "Universe Hacking" talk for FOSS@MAGIC.
