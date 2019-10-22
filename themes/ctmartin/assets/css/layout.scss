@@ -53,11 +53,35 @@ footer {
     margin-top: 5px;
     padding: 10px 0;
 
-    div {
-        float: right;
+    #footer-copyright {
+        float: left;
+    }
 
-        &:first-child {
-            float: left;
+    #footer-source, #footer-baseurl {
+        float: right;
+    }
+
+    #footer-baseurl {
+        display: none;
+    }
+}
+
+@media print {
+    html, body, header, main, footer {
+        display: block;
+    }
+
+    header {
+        position: absolute;
+    }
+
+    footer {
+        #footer-source {
+            display: none;
+        }
+
+        #footer-baseurl {
+            display: block;
         }
     }
 }

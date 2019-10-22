@@ -87,3 +87,9 @@ nav {
 article {
     font-family: $font-family-serif;
 }
+
+@media print {
+    body {
+        font-size: 0.8rem;
+    }
+}
