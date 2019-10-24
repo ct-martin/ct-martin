@@ -14,7 +14,7 @@ test:
 pages:
   script:
   - hugo
-  - "curl -X POST \"https://api.cloudflare.com/client/v4/zones/$CLOUDFLARE_ZONE/purge_cache\" -H \"Authorization: Bearer $CLOUDFLARE_API_KEY\" -H \"Content-Type: application/json\" --data '{\"purge_everything\":true}'"
+  - "wget -S --header=\"Authorization: Bearer $CLOUDFLARE_API_KEY\" --header=\"Content-Type: application/json\" --post-data '{\"purge_everything\":true}' \"https://api.cloudflare.com/client/v4/zones/$CLOUDFLARE_ZONE/purge_cache\""
   artifacts:
     paths:
     - public
