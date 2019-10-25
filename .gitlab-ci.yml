@@ -12,8 +12,6 @@ variables:
 stages:
 #  - test
   - build
-  - deploy # implicitly defined from "pages"
-  - purge_cache
 
 #test:
 #  stage: test
@@ -33,7 +31,7 @@ pages:
     - master
 
 purge_cache:
-  stage: purge_cache
+  stage: .post
   script:
     - apk add curl
     - "curl -X POST \"https://api.cloudflare.com/client/v4/zones/$CLOUDFLARE_ZONE/purge_cache\" -H \"Authorization: Bearer $CLOUDFLARE_API_KEY\" -H \"Content-Type: application/json\" --data '{\"purge_everything\":true}'"
