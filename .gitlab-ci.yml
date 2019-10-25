@@ -12,7 +12,7 @@ variables:
 stages:
 #  - test
   - build
-# "pages" job w/ artifact will deploy
+  - deploy # implicitly defined from "pages"
   - purge_cache
 
 #test:
