@@ -27,7 +27,7 @@ Once I figured out how to make the theme & templates it was really easy, but get
 
 I used [this amazing script](https://github.com/palaniraja/blog2md) to convert my WordPress export to Markdown.
 It wasn't perfect, but a large part of that was also that the content from WordPress' classic editor not exporting correctly (since re-importing to a test WordPress instance didn't display correctly either).
-I had to make a [couple](https://github.com/palaniraja/blog2md/pull/7) [tweaks](https://github.com/palaniraja/blog2md/pull/10) to it (and the PRs got accepted :) ) so it wouldwork for my configuration, but it was simple code which made it easy to work with.
+I had to make a [couple](https://github.com/palaniraja/blog2md/pull/7) [tweaks](https://github.com/palaniraja/blog2md/pull/10) to it (for which the PRs got accepted :) ) so it would work for my configuration, but it was simple code which made it easy to work with.
 
 Cleaning up the posts took a decent amount of time, but now that they're in Markdown they're portable and that makes me happy.
 Because I made a simple (custom) theme, the code is also small which makes my life easier.
