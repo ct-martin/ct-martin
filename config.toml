@@ -5,6 +5,8 @@ languageCode = "en-us"
 paginatePath = ""
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
+#pygmentsOptions = "linenos=true"
+pygmentsUseClasses = true
 theme = ["ctmartin"]
 title = "Christian Martin's Blog"
 

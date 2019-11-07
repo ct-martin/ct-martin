@@ -48,6 +48,20 @@ pre {
     padding: 0.8em;
     width: 100%;
 }
+:not(pre)>code {
+    padding: .25em .5em;
+}
+@media screen {
+    :not(pre)>code {
+        background-color: #f3f3f3;
+    }
+}
+@media print {
+    pre {
+        white-space: pre-wrap;
+        word-wrap: break-word;
+    }
+}
 
 a, a:link, a:visited {
     color: rgba(lighten(blue, 5%), 0.8);
