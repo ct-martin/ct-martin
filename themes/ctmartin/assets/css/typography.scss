@@ -2,6 +2,8 @@
 
 /*! Article styling taken from https://github.com/wowthemesnet/mediumish-theme-jekyll under MIT license */
 
+// Font families set in variables.scss
+
 /* General Typography */
 body {
     color: $font-color;
@@ -12,6 +14,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: $font-family-sans-serif;
     font-weight: $font-weight-bold;
     line-height: initial;
     margin: 0.67em 0; // browser default pre-reset
@@ -49,11 +52,11 @@ pre {
     width: 100%;
 }
 :not(pre)>code {
-    padding: .25em .5em;
+    padding: .25em .4em;
 }
 @media screen {
     :not(pre)>code {
-        background-color: #f3f3f3;
+        background-color: $background-color-code;
     }
 }
 @media print {
@@ -64,8 +67,8 @@ pre {
 }
 
 a, a:link, a:visited {
-    color: rgba(lighten(blue, 5%), 0.8);
-    text-decoration: none;
+    color: $font-color-link;
+    text-decoration: underline;
 }
 a:active, a:hover {
     text-decoration: underline;
@@ -87,24 +90,28 @@ blockquote {
 /* Location-specific Typography */
 nav {
     a, a:link, a:visited, a:active, a:hover {
-        color: rgba(black, 0.6);
+        color: $font-color-nav-link;
         text-decoration: none;
+
+        &:hover {
+            color: $font-color-nav-link-hover;
+        }
 
         &.nav-brand {
             color: $font-color;
             font-family: $font-family-serif;
-            font-weight: 800;
+            font-weight: $font-weight-bold;
         }
     }
 }
 
-article {
+article, article > h1:first-child, main > h1:first-child {
     font-family: $font-family-serif;
 }
 
 @media print {
     body {
-        color: #000;
+        color: $font-color-print;
         font-size: 0.8rem;
     }
 }

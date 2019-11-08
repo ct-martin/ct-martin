@@ -61,6 +61,18 @@ nav {
     }
 }
 
+// List link blocks
+.article-list > a {
+    text-decoration: none;
+
+    :first-child {
+        margin-top: 0;
+    }
+    :last-child {
+        margin-bottom: 0;
+    }
+}
+
 // Block/Card-like
 .fw-block {
     display: block;
