@@ -1,8 +1,8 @@
-// Screen: Pygments "borland" theme w/ slight background
+// Screen: Pygments "borland" theme w/ slight background & more accessible green
 // Print: Pygments "bw" theme
 
 @media screen {
-    /* Background */ .chroma { background-color: #f3f3f3 } // Modified
+    /* Background */ .chroma { background-color: #f3f3f3 }
     /* Error */ .chroma .err { color: #a61717; background-color: #e3d2d2 }
     /* LineTableTD */ .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
     /* LineTable */ .chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; width: auto; overflow: auto; display: block; }
@@ -40,11 +40,11 @@
     /* LiteralNumberIntegerLong */ .chroma .il { color: #0000ff }
     /* LiteralNumberOct */ .chroma .mo { color: #0000ff }
     /* OperatorWord */ .chroma .ow { font-weight: bold }
-    /* Comment */ .chroma .c { color: #008800; font-style: italic }
-    /* CommentHashbang */ .chroma .ch { color: #008800; font-style: italic }
-    /* CommentMultiline */ .chroma .cm { color: #008800; font-style: italic }
-    /* CommentSingle */ .chroma .c1 { color: #008800; font-style: italic }
-    /* CommentSpecial */ .chroma .cs { color: #008800; font-weight: bold }
+    /* Comment */ .chroma .c { color: #008000; font-style: italic }
+    /* CommentHashbang */ .chroma .ch { color: #008000; font-style: italic }
+    /* CommentMultiline */ .chroma .cm { color: #008000; font-style: italic }
+    /* CommentSingle */ .chroma .c1 { color: #008000; font-style: italic }
+    /* CommentSpecial */ .chroma .cs { color: #008000; font-weight: bold }
     /* CommentPreproc */ .chroma .cp { color: #008080 }
     /* CommentPreprocFile */ .chroma .cpf { color: #008080 }
     /* GenericDeleted */ .chroma .gd { color: #000000; background-color: #ffdddd }
