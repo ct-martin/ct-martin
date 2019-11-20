@@ -15,7 +15,7 @@ title = "Christian Martin's Blog"
   family_name = "Martin"
   display_name = "Christian Martin"
 [Authors.ctmartin.social]
-    website = "https://ctmartin.me/"
+    website = "https://ctmartin.dev/"
     github = "ct-martin"
     twitter = "_ctmartin"
 
@@ -25,6 +25,7 @@ title = "Christian Martin's Blog"
 
 [params]
   author = "Christian Martin"
+  authorLinks = ["https://ctmartin.dev/", "https://github.com/ct-martin", "https://gitlab.com/ctmartin", "https://twitter.com/_ctmartin"]
   description = "Christian Martin's Blog"
   sourceurl = "https://github.com/ct-martin/blog.ctmartin.me/"
 
