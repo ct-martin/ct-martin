@@ -10,6 +10,9 @@ pygmentsUseClasses = true
 theme = ["ctmartin"]
 title = "Christian Martin's Blog"
 
+[blackfriday]
+  fractions = false
+
 [Authors.ctmartin]
   given_name = "Christian"
   family_name = "Martin"
