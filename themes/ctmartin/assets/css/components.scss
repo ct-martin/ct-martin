@@ -63,13 +63,25 @@ nav {
 
 // List link blocks
 .article-list > a {
+    color: $font-color;
+    display: block;
+    margin-bottom: 1.6em;
     text-decoration: none;
+    width: 100%;
+
+    &:hover {
+        text-decoration: none;
+    }
 
     :first-child {
         margin-top: 0;
     }
     :last-child {
         margin-bottom: 0;
+    }
+
+    p:last-child {
+        font-size: 0.9em;
     }
 }
 
@@ -88,6 +100,7 @@ nav {
     justify-content: center;
     list-style: none;
     margin-top: 1em;
+    margin-bottom: 5px;
 
     .page-item {
         border-right: none;

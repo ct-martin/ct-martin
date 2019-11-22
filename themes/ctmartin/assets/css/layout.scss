@@ -28,29 +28,37 @@ nav {
 }
 main {
     flex: 1 0 auto;
+}
 
-    article.article-list {
-        margin-bottom: 1.6em;
+aside {
+    padding-top: 0.5em;
 
-        a {
-            color: $font-color;
-            display: block;
-            width: 100%;
-        
-            &:hover {
-                text-decoration: none;
-            }
+    h1 {
+        border-bottom: 1px solid darken(white, 10%);
+        font-size: 1.5em;
+    }
 
-            p:last-child {
-                font-size: 0.9em;
-            }
+    h2 {
+        font-size: 1.25em;
+    }
+}
+@media screen {
+    aside {
+        background-color: darken(white, 2%);
+
+        h1 {
+            border-bottom: 1px solid darken(white, 10%);
         }
+    }
+}
+@media print {
+    aside {
+        border-top: 1px solid lighten(black, 10%);
     }
 }
 
 footer {
     flex-shrink: 0;
-    margin-top: 5px;
     padding: 10px 0;
 
     #footer-copyright {
@@ -63,6 +71,21 @@ footer {
 
     #footer-baseurl {
         display: none;
+    }
+}
+@media screen {
+    footer {
+        background: lighten(black, 10%);
+        color: white;
+
+        a, a:link, a:visited {
+            color: darken(white, 10%);
+        }
+    }
+}
+@media print {
+    footer {
+        border-top: 1px solid lighten(black, 10%);
     }
 }
 
