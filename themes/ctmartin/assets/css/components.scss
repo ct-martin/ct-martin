@@ -62,7 +62,7 @@ nav {
 }
 
 // List link blocks
-.article-list > a {
+.article-list > a, a.list-link {
     color: $font-color;
     display: block;
     margin-bottom: 1.6em;
@@ -194,5 +194,48 @@ figure {
                 width: 25%;
             }
         }
+    }
+}
+
+// https://css-tricks.com/piecing-together-approaches-for-a-css-masonry-layout/
+// https://stackoverflow.com/questions/30330845/flexbox-image-scale-to-height-and-keep-aspect-ratio#30332885
+.album-image-previews {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin: 1em 0;
+
+    div, a, amp-img {
+        cursor: pointer;
+        flex: 0 0 auto;
+        margin: 5px 2px;
+        max-width: 100%;
+        padding: 0;
+
+        img {
+            display: block;
+            max-height: 210px;
+            max-width: 100%;
+            object-fit: contain;
+        }
+    }
+}
+.list-album-previews {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: stretch;
+
+    margin: 1em 0;
+    padding: 0;
+
+    div, a {
+        flex: 0 0 auto;
+        margin: 0.5em;
+        max-width: 250px;
+        width: initial;
     }
 }

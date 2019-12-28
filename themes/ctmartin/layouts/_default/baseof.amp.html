@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html amp lang="{{ .Site.LanguageCode }}">
-    {{- partial "head.amp.html" . -}}
+    <head>
+        {{- partial "head.amp.html" . -}}
+        {{- block "pageHead" . }}{{- end }}
+    </head>
     <body>
         {{- partial "header.amp.html" . -}}
         <main class="container">
