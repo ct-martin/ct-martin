@@ -1,12 +1,12 @@
 CTMartin's Photos
 ===============
-[![pipeline status](https://gitlab.com/ctmartin/photo-gallery/badges/master/pipeline.svg)](https://gitlab.com/ctmartin/photo-gallery/commits/master)
+[![pipeline status](https://gitlab.com/ctmartin/vis/badges/master/pipeline.svg)](https://gitlab.com/ctmartin/vis/commits/master)
 
 
 
 ---
 
-Everything in or created from the `content/` and `static/` folders are All Rights Reserved unless otherwise mentioned. Fair use is encouraged; take your own photos.
+Everything in or created from the `content/` and `static/` folders are All Rights Reserved unless otherwise mentioned. Fair use is encouraged; do your own work.
 
 Content outside of both the `content/` and `static/` folders are released under the MIT license as follows unless otherwise noted in the file:
 
