@@ -1,0 +1,59 @@
+{{ define "main" }}
+    <article>
+        <h1>{{.Title}}</h1>
+        {{ .Content }}
+
+        <div class="d3-geomap" id="map"></div>
+
+        <p><i>{{.Date.Format "2 Jan, 2006"}}</i></p>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/d3-geomap@3.3.0/dist/d3-geomap.min.css" integrity="sha256-DgXg+hpaAA4WWn5ZgY83dCaKVN3h51LjIdlRAPp92Vg=" crossorigin="anonymous">
+        <script src="//unpkg.com/d3@5/dist/d3.min.js"></script>
+        <script src="//unpkg.com/topojson@3/dist/topojson.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/d3-geomap@3.3.0/dist/d3-geomap.min.js" integrity="sha256-pNPV4Ua6B6C+u3em53v3WEdyzUn9jlIikwGo2mXrmJw=" crossorigin="anonymous"></script>
+        
+        <script type="text/javascript">
+        {{/* https://d3-geomap.github.io/ */}}
+        const map = d3
+        {{- if .Param "geomap.choropleth" }}
+            .choropleth()
+            {{- with .Param "geomap.colors" }}
+                .colors({{ . }})
+            {{- end }}
+            {{- with .Param "geomap.column" }}
+                .column({{ . }})
+            {{- end }}
+            {{- with .Param "geomap.domain" }}
+                .domain({{ . }})
+            {{- end }}
+            {{- if .Param "geomap.legend" }}
+                .legend(true)
+            {{- else }}
+                .legend(false)
+            {{- end }}
+        {{- else }}
+            .geomap()
+        {{- end }}
+        {{- with .Param "geomap.geofile" }}
+            .geofile('https://cdn.jsdelivr.net/npm/d3-geomap@3.3.0/dist/topojson/{{ . }}.json')
+        {{- end }}
+        {{- with .Param "geomap.projection" }}
+            .projection(d3.{{ safeJS . }})
+        {{- end }}
+        {{- with .Param "geomap.scale" }}
+            .scale({{ . }})
+        {{- end }}
+        {{- with .Param "geomap.unitId" }}
+            .unitId('{{ . }}')
+        {{- end }}
+            ;
+        
+        {{ $csv := first 1 (.Resources.ByType "csv") }}
+        {{ range $csv }}
+        d3.csv({{ .RelPermalink }}).then(data => {
+            map.draw(d3.select('#map').datum(data));
+        });
+        {{ end }}
+        </script>
+    </article>
+{{ end }}
