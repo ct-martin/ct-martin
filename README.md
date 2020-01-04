@@ -1,4 +1,4 @@
-CTMartin's Photos
+CTMartin's Visualizations
 ===============
 [![pipeline status](https://gitlab.com/ctmartin/vis/badges/master/pipeline.svg)](https://gitlab.com/ctmartin/vis/commits/master)
 
