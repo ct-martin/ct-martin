@@ -58,8 +58,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [params]
   author = "Christian Martin"
   authorLinks = ["https://ctmartin.dev/", "https://blog.ctmartin.me/", "https://github.com/ct-martin", "https://gitlab.com/ctmartin", "https://twitter.com/_ctmartin"]
-  description = "Christian Martin's Photos"
-  sourceurl = "https://github.com/ct-martin/photo-gallery/"
+  description = "Christian Martin's Visualizations"
+  sourceurl = "https://github.com/ct-martin/vis/"
 
 #[permalinks]
 #  blog = "/:year/:month/:filename/"
