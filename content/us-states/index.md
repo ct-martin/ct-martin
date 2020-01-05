@@ -14,3 +14,4 @@ geomap:
     scale: 800
     unitId: 'name'
 ---
+To count, must visit something notable (defined loosely) that's not an airport or hotel.

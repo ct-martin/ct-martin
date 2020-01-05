@@ -12,3 +12,4 @@ geomap:
     legend: false
     unitId: 'iso3'
 ---
+To count, must visit something notable (defined loosely) that's not an airport or hotel.
