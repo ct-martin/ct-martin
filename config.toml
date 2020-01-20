@@ -1,0 +1,68 @@
+baseURL = "https://food.ctmartin.me/"
+copyright = "© 2020 Christian Martin"
+disableHugoGeneratorInject = true
+languageCode = "en-us"
+paginatePath = ""
+theme = ["ctmartin"]
+title = "CT/Food"
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[Authors.ctmartin]
+  given_name = "Christian"
+  family_name = "Martin"
+  display_name = "Christian Martin"
+[Authors.ctmartin.social]
+    website = "https://ctmartin.me/"
+    github = "ct-martin"
+    twitter = "_ctmartin"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    noClasses = false
+
+#[[menu.main]]
+#    name = "Food"
+#    idenfifier = "home"
+#    url = "/"
+#    weight = 10
+#[[menu.main]]
+#    name = "Tags"
+#    idenfifier = "tags"
+#    url = "/tags"
+#    weight = 11
+[[menu.main]]
+    name = "Portfolio"
+    idenfifier = "portfolio"
+    url = "https://ctmartin.dev/"
+    weight = 20
+[[menu.main]]
+    name = "Blog"
+    idenfifier = "Blog"
+    url = "https://blog.ctmartin.me/"
+    weight = 25
+[[menu.main]]
+    name = "About"
+    idenfifier = "about"
+    url = "https://ctmartin.dev/about"
+    weight = 30
+
+[outputs]
+#  home = ["HTML", "AMP", "RSS"]
+#  page = ["HTML", "AMP"]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+
+[params]
+  author = "Christian Martin"
+  authorLinks = ["https://ctmartin.dev/", "https://ctmartin.me/", "https://github.com/ct-martin", "https://gitlab.com/ctmartin", "https://twitter.com/_ctmartin"]
+  description = "Christian Martin's Food & Food Experiments"
+  sourceurl = "https://github.com/ct-martin/food/"
+
+#[permalinks]
+#  blog = "/:year/:month/:filename/"
+
+[Social]
+  twitter = "_ctmartin"
