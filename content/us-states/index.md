@@ -11,7 +11,7 @@ geomap:
     geofile: "countries/USA"
     legend: false
     projection: geoAlbersUsa
-    scale: 800
+    scale: 400
     unitId: 'name'
 ---
 To count, must visit something notable (defined loosely) that's not an airport or hotel.
