@@ -27,17 +27,15 @@ The BIOS has a built-in virtual keyboard that stays up until you boot into an op
 
 The CPU is ok by 2018 standards, but a too slow for moderately intensive usage. From a fresh Windows 7 install the decrease in performance as all the Windows updates install was very noticeable. When drawing in Krita I was noticing the lines break, although I’ve see in some reviews since then that using a stylus can sometimes confuse it.
 
-<div class="img-wrap has-two">
-    {{< figure
-        caption = "Chrome is open, but the video was paused the entire time I was drawing the \"Hello\""
-        src = "https://lh4.googleusercontent.com/haZNxGf7ndnlQdFdVSqDUxLCZhnvILJM_Uiv_cC-ciXf6yrNirEe2VZotT2FiFGeu6hHt6WJJTv8QgsksOe6lwiMRGutEA-4N6rzHENZqoxdsO4TTBLeiL7QdGlNVrFZeTgOb0y4"
-    >}}
+{{< figure
+    caption = "Chrome is open, but the video was paused the entire time I was drawing the \"Hello\""
+    src = "https://lh4.googleusercontent.com/haZNxGf7ndnlQdFdVSqDUxLCZhnvILJM_Uiv_cC-ciXf6yrNirEe2VZotT2FiFGeu6hHt6WJJTv8QgsksOe6lwiMRGutEA-4N6rzHENZqoxdsO4TTBLeiL7QdGlNVrFZeTgOb0y4"
+>}}
 
-    {{< figure
-        caption = "This time the video was playing while I was writing"
-        src = "https://lh4.googleusercontent.com/itWAEDLGz1Cc2DCNnBVsDAz--QYttrXX81OnvRLr7IzWe038KsT73CvF3eCcs98AOEfiTlDUHhcmAgH0eTsWtIwVwdNiakS4QKiKTG5G9sKzhA7tBj7kEj968zjF9rLvlSyl9_SB"
-    >}}
-</div>
+{{< figure
+    caption = "This time the video was playing while I was writing"
+    src = "https://lh4.googleusercontent.com/itWAEDLGz1Cc2DCNnBVsDAz--QYttrXX81OnvRLr7IzWe038KsT73CvF3eCcs98AOEfiTlDUHhcmAgH0eTsWtIwVwdNiakS4QKiKTG5G9sKzhA7tBj7kEj968zjF9rLvlSyl9_SB"
+>}}
 
 Running anything other than Windows 7 was also an experience. Under Windows 10 with the latest touchscreen driver the second (lower) screen would get mapped to the upper screen, which was extra annoying as the second screen’s bottom is actually its top, so all touches are reversed which also makes it doubly unusable.
 
