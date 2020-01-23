@@ -1,26 +1,26 @@
-name,visited
-Arizona,1
-California,1
-Colorado,1
-Connecticut,1
-Delaware,1
-District of Columbia,1
-Florida,1
-Iowa,1
-Kansas,0
-Maine,1
-Maryland,1
-Massachusetts,1
-Nebraska,1
-Nevada,1
-New Hampshire,1
-New Jersey,1
-New Mexico,1
-New York,1
-Pennsylvania,1
-Rhode Island,1
-South Dakota,1
-Utah,1
-Vermont,1
-Virginia,1
-Wyoming,1
+code,name,visited
+AZ,Arizona,1
+CA,California,1
+CO,Colorado,1
+CT,Connecticut,1
+DE,Delaware,1
+DC,District of Columbia,1
+FL,Florida,1
+IA,Iowa,1
+KS,Kansas,1
+ME,Maine,1
+MD,Maryland,1
+MA,Massachusetts,1
+NE,Nebraska,1
+NV,Nevada,1
+NH,New Hampshire,1
+NJ,New Jersey,1
+NM,New Mexico,1
+NY,New York,1
+PA,Pennsylvania,1
+RI,Rhode Island,1
+SD,South Dakota,1
+UT,Utah,1
+VT,Vermont,1
+VA,Virginia,1
+WY,Wyoming,1
