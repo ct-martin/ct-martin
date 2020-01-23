@@ -1,5 +1,6 @@
 ---
 title: Met Collection Statistics
+date: 05 Jan 2020
 ---
 Interactive visualizations about the Metropolitan Museum of Art's collections. Looks at the collection and departments by distribution of objects, cultures, and how much has been made available in the public domain.
 
