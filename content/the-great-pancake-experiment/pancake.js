@@ -28,11 +28,11 @@ window.addEventListener('load', () => {
                 if(exists === -1) {
                     o.x.push(x);
                     o.y.push(y);
-                    o.text.push(i['Flavor']);
+                    o.text.push(`${i['Flavor']}`);
                     o.marker.size.push(1);
                 } else {
                     o.marker.size[exists]++;
-                    o.text[exists] += `; ${i['Flavor']}`;
+                    o.text[exists] += `<br>${i['Flavor']}`;
                 }
                 return o;
             },
