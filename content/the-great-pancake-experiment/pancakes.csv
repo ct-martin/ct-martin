@@ -11,7 +11,7 @@ Flavor,Normalness,Taste,Notes
 "W/ Berry Sauce",2,4,
 "Cinnamon & w/ Berry Sauce",3,5,
 "Cinnamon, Nutmeg, & w/ Berry Sauce",3,4.5,
-"Chinese Stir Fry",5,1,"Taste exactly like the intended flavor; don't think it works in a pancake"
+"Chinese Stir Fry",5,1,"Sesame seeds, soy sauce, garlic powder, (dry) minced onion. Taste exactly like the intended flavor; don't think it works in a pancake"
 "Cumin",4,3.5,
 "Garam Masala",4,4.5,
 "Curry Powder",4,3,
@@ -22,3 +22,6 @@ Flavor,Normalness,Taste,Notes
 "Chai Tea, brewed & replacing water",4,4,
 "Rum",4,3.5,"Very alcoholic; our attempt was est. 4 shots in the pancake"
 "Pumpkin Spice",3.5,3.5,
+"Fried Dough-like",3,4,"Make dough slightly waterier than usual & use a generous amount of butter in pan"
+"Fried Dough-like, Chocolate Chips",3.5,4.5,
+"Fried Dough-like, Chicken Pho Broth",4,4,"Like a dough ball soaked in the juice that comes from cooking chicken"
