@@ -68,7 +68,7 @@ window.addEventListener('load', () => {
         /* Raw Data details */
         let details = document.createElement('details');
         let summary = document.createElement('summary');
-        summary.innerText = "Raw Data";
+        summary.innerText = "Data w/ Notes";
         details.appendChild(summary);
 
         let dataLink = document.createElement('a');

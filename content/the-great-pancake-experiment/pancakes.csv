@@ -3,9 +3,9 @@ Flavor,Normalness,Taste,Notes
 "Blueberry",2,4,
 "W/ (Real) Maple Syrup",2,4,
 "Chocolate Chip",2,4,
-"Chocolate Chip & Real Maple Syrup",2,5,
+"Chocolate Chip & w/ (Real) Maple Syrup",2,5,
 "Lemon-Lime",3.5,4,
-"Apple-Cinnamon",3,4.5,
+"Applesauce-Cinnamon",3,4.5,"Applesause adds enough liquid to replace water. Can do with protein powder and oats for a really good, hearty pancake"
 "Cinnamon-Cumin",4,3.5,
 "Peanut Butter",3.5,4,"Really hard to get right"
 "W/ Berry Sauce",2,4,
@@ -19,9 +19,10 @@ Flavor,Normalness,Taste,Notes
 "(Real) Maple Syrup (mixed into batter)",3.5,2,"Burns too easily"
 "Peppermint Tea, dry in batter",4,3,
 "Chai Tea, leaves rinsed & in batter",4,3,
-"Chai Tea, brewed & replacing water",4,4,
+"Chai Tea, brewed & replacing water",4,4,"Brewing the tea and using the tea w/o the leaves in to replace water in the batter definitely worked the best"
 "Rum",4,3.5,"Very alcoholic; our attempt was est. 4 shots in the pancake"
-"Pumpkin Spice",3.5,3.5,
+"Pumpkin Spice",3.5,3.5,"There are some competing definitions on what spice combination this is; I forget which we used"
 "Fried Dough-like",3,4,"Make dough slightly waterier than usual & use a generous amount of butter in pan"
-"Fried Dough-like, Chocolate Chips",3.5,4.5,
+"Fried Dough-like, Chocolate Chips",3.5,4,
+"Fried Dough-like, Chocolate Chips, & w/ (Real) Maple Syrup",3.5,4.5,
 "Fried Dough-like, Chicken Pho Broth",4,4,"Like a dough ball soaked in the juice that comes from cooking chicken"

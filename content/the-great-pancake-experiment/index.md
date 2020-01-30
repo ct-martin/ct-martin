@@ -40,3 +40,15 @@ Both scales are 1-5 (think stars) and halves are allowed.
 3. Not classic but could be considered somewhat standard, such as apple cinnamon
 4. Could be considered standard in other baking, but wouldn't expect in pancakes, such as cumin or curry powder
 5. Requires thinking, "Can this be made into a pancake?", such as Chinese stir fry
+
+## Cooking tips
+
+I use a "just add water" dry mix.
+This was originally out of convenience before I started the experiment, but I've stuck with it since it lets me try liquids in pancakes easily.
+
+## The Results
+
+(Note that "with" and "w/" indicate that the ingredient was put on the pancake after making as opposed to mixing into the batter before cooking)
+
+Radius of plot points indicates how many pancakes are at that taste & normalness rating.
+Each pancake's flavor combination is on its own line in the hover tooltip.
