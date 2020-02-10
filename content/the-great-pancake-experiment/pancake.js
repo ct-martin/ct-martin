@@ -47,7 +47,7 @@ window.addEventListener('load', () => {
                 }
             }
         );
-        data.marker.size = data.marker.size.map(i => i * 10);
+        data.marker.size = data.marker.size.map(i => Math.sqrt(i) * 10);
         const layout = {
           xaxis: {
               range: [0.9,5.1],
