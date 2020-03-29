@@ -1,7 +1,7 @@
 ---
 title: Seltzer Experiments
 date: 23 Mar 2020
-aliases: ['/seltzer', '/seltzers', '/seltzer-experiments']
+aliases: ['/seltzers', '/seltzer-experiment', '/seltzer-experiments']
 type: vis
 libs: ['papaparse', 'plotly']
 ---

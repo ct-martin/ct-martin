@@ -1,7 +1,7 @@
 ---
 title: Popcorn Experiments
 date: 23 Mar 2020
-aliases: ['/popcorn', '/popcorn-experiments']
+aliases: ['/popcorn', '/popcorn-experiment', '/popcorn-experiments']
 type: vis
 libs: ['papaparse', 'plotly']
 ---
