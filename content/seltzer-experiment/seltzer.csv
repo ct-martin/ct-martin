@@ -1,6 +1,10 @@
 Flavor,Normalness,Taste,Group Rating,Notes
 "Cranberry",3,4,4,
+"Cranberry-Lime",3.5,5,4,
 "Lemon",2,5,5,
 "Lemon-Lime",2,4,4,
+"Lime",2,4,4,
 "Orange",2,4,5,
-"Peach",2.5,2,2,"Got comment 'hopefully orange'..."
+"Peach",2.5,2,2,"Got guess of 'hopefully orange'..."
+"Plain/Unflavored",1,3.5,4,
+"Pineapple",3,2,,
