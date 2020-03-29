@@ -1,5 +1,5 @@
 window.addEventListener('load', () => {
-    const dataURL = '/the-great-pancake-experiment/pancakes.csv';
+    const dataURL = '/pancake/pancakes.csv';
     const resultsDiv = document.querySelector('#do-vis-here');
 
     const parseResults = (results) => {

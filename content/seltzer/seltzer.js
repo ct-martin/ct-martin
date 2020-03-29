@@ -1,5 +1,5 @@
 window.addEventListener('load', () => {
-    const dataURL = '/seltzer-experiment/seltzer.csv';
+    const dataURL = '/seltzer/seltzer.csv';
     const resultsDiv = document.querySelector('#do-vis-here');
 
     const parseResults = (results) => {

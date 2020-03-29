@@ -1,5 +1,5 @@
 window.addEventListener('load', () => {
-    const dataURL = '/popcorn-experiment/popcorn.csv';
+    const dataURL = '/popcorn/popcorn.csv';
     const resultsDiv = document.querySelector('#do-vis-here');
 
     const parseResults = (results) => {
