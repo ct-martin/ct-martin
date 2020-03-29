@@ -1,6 +1,6 @@
 ---
 title: Seltzer Experiments
-date: 23 Mar 2020
+date: 29 Mar 2020
 aliases: ['/seltzers', '/seltzer-experiment', '/seltzer-experiments']
 type: vis
 libs: ['papaparse', 'plotly']
