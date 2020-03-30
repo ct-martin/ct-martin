@@ -1,6 +1,7 @@
 ---
 title: Turkish Lentil Soup
 date: 11 Feb 2020
+aliases: ['/turkish-lentil-soup', '/recipe/turkish-lentil-soup', '/recipes/turkish-lentil-soup']
 ---
 Yum.
 
