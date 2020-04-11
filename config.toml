@@ -45,6 +45,10 @@ title = "Christian Martin's Blog"
 [outputs]
   home = ["HTML", "AMP", "RSS"]
   page = ["HTML", "AMP"]
+  section = ["HTML", "AMP", "RSS"]
+  taxonomy = ["HTML", "AMP", "RSS"]
+  taxonomyTerm = ["HTML", "AMP", "RSS"]
+  
 
 [params]
   author = "Christian Martin"
