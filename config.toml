@@ -50,10 +50,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     weight = 30
 
 [outputs]
-#  home = ["HTML", "AMP", "RSS"]
-#  page = ["HTML", "AMP"]
-  home = ["HTML", "RSS"]
-  page = ["HTML"]
+  home = ["HTML", "AMP", "RSS"]
+  page = ["HTML", "AMP"]
+#  home = ["HTML", "RSS"]
+#  page = ["HTML"]
 
 [params]
   author = "Christian Martin"
