@@ -43,7 +43,7 @@ title = "Christian Martin's Blog"
     weight = 30
 
 [outputs]
-  home = ["HTML", "AMP", "RSS"]
+  home = ["HTML", "AMP", "RSS", "JSON"]
   page = ["HTML", "AMP"]
   section = ["HTML", "AMP", "RSS"]
   taxonomy = ["HTML", "AMP", "RSS"]
