@@ -6,8 +6,6 @@ paginatePath = ""
 theme = ["ctmartin"]
 title = "CT/Food"
 
-disableKinds = ["taxonomy", "taxonomyTerm"]
-
 [Authors.ctmartin]
   given_name = "Christian"
   family_name = "Martin"
@@ -49,11 +47,15 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     url = "https://ctmartin.dev/about"
     weight = 30
 
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
 [outputs]
-  home = ["HTML", "AMP", "RSS"]
-  page = ["HTML", "AMP"]
-#  home = ["HTML", "RSS"]
-#  page = ["HTML"]
+  home = ["HTML", "RSS", "JSON"]
+#  home = ["HTML", "RSS", "AMP", "JSON"]
+#  page = ["HTML", "AMP", "JSON"]
+#  section = ["HTML", "RSS", "AMP", "JSON"]
+#  taxonomy = ["HTML", "RSS", "AMP", "JSON"]
+#  taxonomyTerm = ["HTML", "RSS", "AMP", "JSON"]
 
 [params]
   author = "Christian Martin"
