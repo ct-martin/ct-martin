@@ -48,6 +48,10 @@ title = "Christian Martin's Blog"
   section = ["HTML", "AMP", "RSS"]
   taxonomy = ["HTML", "AMP", "RSS"]
   taxonomyTerm = ["HTML", "AMP", "RSS"]
+#  page = ["HTML", "AMP", "JSON"]
+#  section = ["HTML", "RSS", "AMP", "JSON"]
+#  taxonomy = ["HTML", "RSS", "AMP", "JSON"]
+#  taxonomyTerm = ["HTML", "RSS", "AMP", "JSON"]
   
 
 [params]
