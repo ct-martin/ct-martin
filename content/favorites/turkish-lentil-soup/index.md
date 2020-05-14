@@ -19,10 +19,15 @@ Original recipe: https://www.wholefoodsmarket.com/recipes/turkish-style-red-lent
 * I don't add salt out of preference
 * Lemon & mint garnish is a must
   * I find peppermint works really well; spearmint not so much
+* Replace the onions with one large spanish onion
+* Red lentils taste better than green lentils in my opinion
+  * Green lentils are more earthy and don't have the same flavor complexity in this dish
+  * Green lentils don't break apart as nicely as red lentils; cooking time may vary
+  * If you use green lentils you definitely want to add some salt
 * I like toasting some garlic naan in a covered pan with olive oil as a side
   * Started based on what was available at the store, but garlic naan is also just really good so it stuck
   * Kind of like a faux pita
-  * Note: this makes **a lot** of smoke; you better crack windows, have an overhead vent that goes _outside_, and open the pan right under the vent
+  * Note: this makes **a lot** of smoke; you better crack windows
 
 ## Reheating
 
