@@ -10,7 +10,7 @@ window.addEventListener('load', () => {
         }
 
         //const fields = results.meta.fields;
-        const fields = ['Flavor', 'Normalness', 'Taste', 'Notes'];
+        const fields = ['Flavor', 'Normalness', 'Taste', 'Group Rating', 'Notes'];
 
         /* Chart */
         const chartDiv = document.createElement('div');
