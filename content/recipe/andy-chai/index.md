@@ -33,6 +33,8 @@ A chai tea mix named after its refiner, [Andy Meyer](https://andymeyer.xyz/).
 
 ![Photo of the tea in a mason jar](chai.jpg)
 
+{{< recipe >}}
+
 Some notes on sweetening:
 * Milk will add some sweetness; you might want to under-sweeten before adding milk
   * A couple popular combinations according to Andy are 50-50 milk-chai, and using heavy cream or half-and-half instead.
