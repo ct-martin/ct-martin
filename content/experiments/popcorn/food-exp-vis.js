@@ -1,5 +1,5 @@
 window.addEventListener('load', () => {
-    const dataURL = '/pancake/pancakes.csv';
+    const dataURL = 'data.csv';
     const resultsDiv = document.querySelector('#do-vis-here');
 
     const parseResults = (results) => {
@@ -10,7 +10,7 @@ window.addEventListener('load', () => {
         }
 
         //const fields = results.meta.fields;
-        const fields = ['Flavor', 'Normalness', 'Taste', 'Notes'];
+        const fields = ['Flavor', 'Normalness', 'Taste', 'Group Rating', 'Notes'];
 
         /* Chart */
         const chartDiv = document.createElement('div');
@@ -59,7 +59,7 @@ window.addEventListener('load', () => {
               title: 'Taste',
               zeroline: false
           },
-          title: 'Pancake Experiment Results',
+          title: 'Popcorn Experiment Results',
           hovermode: 'closest'
         };
         Plotly.plot(chartDiv, [data], layout, {responsive: true})

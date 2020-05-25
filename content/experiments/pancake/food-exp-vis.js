@@ -1,5 +1,5 @@
 window.addEventListener('load', () => {
-    const dataURL = '/seltzer/seltzer.csv';
+    const dataURL = 'data.csv';
     const resultsDiv = document.querySelector('#do-vis-here');
 
     const parseResults = (results) => {
@@ -10,7 +10,7 @@ window.addEventListener('load', () => {
         }
 
         //const fields = results.meta.fields;
-        const fields = ['Flavor', 'Normalness', 'Taste', 'Group Rating', 'Notes'];
+        const fields = ['Flavor', 'Normalness', 'Taste', 'Notes'];
 
         /* Chart */
         const chartDiv = document.createElement('div');
