@@ -2,7 +2,7 @@
 
 🎓 I'm a recent grad from RIT focusing on how people use technology to engage with culture
 
-💻 Interests include
+💻 Interests include:
 * 📑 metadata
 * 📈 [visualization](https://vis.ctmartin.me/)
 * 🖊️ rich content editing
