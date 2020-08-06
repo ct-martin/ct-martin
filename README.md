@@ -25,3 +25,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+<!-- Stats badges -->
+![profile stats](https://github-readme-stats.vercel.app/api?username=ct-martin&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide=stars)
