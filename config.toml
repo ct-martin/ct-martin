@@ -1,6 +1,7 @@
 baseURL = "https://vis.ctmartin.me/"
 copyright = "© 2020 Christian Martin"
 disableHugoGeneratorInject = true
+enableEmoji = true
 languageCode = "en-us"
 paginatePath = ""
 theme = ["ctmartin"]
