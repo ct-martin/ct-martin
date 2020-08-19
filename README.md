@@ -9,7 +9,7 @@
 * 🏛 [museums & cultural institutions](https://vis.ctmartin.me/museums/)
 * 🥞 [food](https://food.ctmartin.me/)
 
-🍵 Prefer tea over coffee
+🍵 Tea drinker
 
 <!--
 **ct-martin/ct-martin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
