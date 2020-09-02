@@ -1,0 +1,23 @@
+baseURL = "https://ctmartin.me/"
+languageCode = "en-us"
+title = "Christian Martin"
+theme = "ctmartin"
+
+[mediaTypes]
+  [mediaTypes."text/markdown"]
+    suffixes = ["md"]
+
+[outputFormats]
+  [outputFormats.README]
+    baseName = "README"
+    isPlainText = true
+    mediaType = "text/markdown"
+    protocol = ""
+    path = ".."
+    notAlternative = true
+
+[outputs]
+  home = ["HTML", "README"]
+  page = []
+  taxonomy = []
+  taxonomyTerm = []

@@ -1,0 +1,3 @@
+[submodule "themes/ctmartin"]
+	path = themes/ctmartin
+	url = ssh://git@github.com/ct-martin/ctmartin-hugo-theme
