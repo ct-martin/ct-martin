@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+        <h1 class="title">Cleveland Museum of Art Collections</h1>
+        <p class="subtitle">Data Fetched: 03 Jan, 2020</p>
+    </header>
+    <main class="container is-desktop">
+        <p id="lazy-load-waiter">Loading...</p>
+
+        <div id="lazy-load" style="opacity: 0;">
+            <p>
+                <em>
+                    Standard disclaimer: the dataset has been heavily summarized from the original.
+                    Additionally, it has been heavily interpreted and it not endorsed by the Cleveland Museum of Art.
+                </em>
+            </p>
+            <p>
+                In my opinion, the best thing to do when starting to look at a museum's collections is to get some basic statistics.
+                I find this helpful because it gives a sense for the order of magnitude of the dataset.
+            </p>
+
+            <div class="level">
+                <div class="level-item has-text-centered">
+                    <div>
+                        <p class="heading">Total Objects</p>
+                        <p class="title" id="stat--total"></p>
+                    </div>
+                </div>
+                <div class="level-item has-text-centered">
+                    <div>
+                        <p class="heading">Departments</p>
+                        <p class="title" id="stat--depts"></p>
+                    </div>
+                </div>
+                <div class="level-item has-text-centered">
+                    <div>
+                        <p class="heading">Types</p>
+                        <p class="title" id="stat--types"></p>
+                    </div>
+                </div>
+                <div class="level-item has-text-centered">
+                    <div>
+                        <p class="heading">% Public Domain</p>
+                        <p class="title" id="stat--ppd"></p>
+                    </div>
+                </div>
+            </div>
+
+            <p>
+                Next, I broke down the collections by department and type, to get a sense of distribution within the museum.
+            </p>
+
+            <h2 class="title">Count by Department</h2>
+            <div id="chart--countbydept"></div>
+            <p>
+                The interesting find here is that Prints is about 1/3 of the entire museum's collections, and has far more items than any other department.
+                Meanwhile, the Educational Art department has only 1 item and some traditionally underrepresented cultures such as Africa and Islam have a very small number of items (which is unfortunately not unique to this museum; much larger museums also have this discrepency).
+                However, the floor space isn't accounted for here, so lets look at a different chart.
+            </p>
+
+            <h2 class="title">Count on Display by Department</h2>
+            <div id="chart--ondisplaybydept"></div>
+            <p>
+                When looking at this chart, is becomes visible that Medieval and Decorative art are most of what's on display (~40%).
+                Additionally, despite their large numbers in the collection, Prints, Drawings, and Photographs have very little representation.
+                This is additionally interesting because the website and mission statement have a strong focus on "art" but little/no mention of these collections (and despite calling the Prints collection internationally known "for its high quality").
+                It's possible that the physical materials don't cope well with being on display, but there's still an insane discrepency here.
+            </p>
+
+            <h2 class="title">Count by Type</h2>
+            <div id="chart--countbytype"></div>
+            <p>
+                <em>Note the scale on the y-axis; apologies, but you couldn't see much if I didn't do it.</em>
+            </p>
+            <p>
+                Types tell us about the kinds of items a museum has, as opposed to style.
+                In line with the departments, we can see that there are a large numbber of Prints, Photographs, and Drawings.
+                It's also interesting to see a lot of Bound Volumes, which are books of materials, as opposed to just one on its own.
+                It's also worth noting that for the top few departments, most of them have the same type as their department name.
+                This poses the question whether "Print" or similar is the most specific a department can get, especially when there are many types with &lt;10 items.
+                Also, there's a Miscellaneous type with over 500 items, and I find it somewhat disappointing that this is the case; a small sample was mostly decorated boxes and cups, which I would suspect there are terms for.
+            </p>
+
+            <h2 class="title">Number of Types over Count by Department</h2>
+            <div id="chart--typesbydept"></div>
+            <p>
+                This chart allows us to see if there is a correlation between the number of items in a department and how descriptive the Type information is.
+                There does not seem to be an overall correlation, but if you look at the specific points, departments representing a culture tend to be higher up than ones describing a Type.
+                Additionally, departments about Painting and Sculpture tend to have less types.
+            </p>
+
+            <h2 class="title">% Public Domain over Object Count by Department</h2>
+            <div id="chart--ppdbydept"></div>
+            <p>
+                As someone heavily engaged in open source, I find interesting to see how much of a museum's collection is public domain.
+                This chart looks for correlation between the number of items in a department and how much of it is public domain.
+                Similar to types, there is not a noticable correlation.
+                Of note, Contemporary Art and Photography have very little public domain; this makes sense due to the age and rights of works those departments are likely to have.
+                The big departments are more mixed, but tent to be below average for being public domain.
+                That said, they also have a lot more items, which makes them harder to process.
+            </p>
+
+            <h2 class="title">Growth (Accessions) per Year</h2>
+            <div id="chart--growthperyear"></div>
+            <p>
+                This chart doesn't tell us much for a few reasons, but it's interesting to see.
+                This chart shows how many new items the collections gained each year.
+                The reason this chart doesn't say much is that there are a variety of factors that influence accession.
+                First, the museum may refuse items it doesn't think align with its mission or it can't care for them.
+                It also doesn't account for the budget of the museum for active purchasing and the chance that something is donated.
+                Finally, it doesn't account for things like a box of photos, which might all need to be individually accessioned, vs. a giant statue.
+                However, what this chart can tell us is how the combination of factors such as these came together in the records.
+                We can see that most years seem to sit around the 300-400 range, with some years a little lower or higher, and then occasional spikes of high accessioning (particularly in the beginning and last decades).
+                You can see slight downturns over the course of major wars the US was involved in, but more noticeable is economic recessions such as around the 1930s and late 1970s (I haven't dug too deeply into this though).
+            </p>
+
+            <h2 class="title">Some Wild Speculation</h2>
+            <p>
+                This section is completely out-there and has no substantial basis for its claims.
+                However, these are a loose trend I noticed while working through the data: culture-oriented departments seem to be more active than type-focused ones.
+                To this point, culture-oriented departments were more descriptive in type of material, more public domain, and most importantly, more on display.
+                This seems backed by the website, map, and mission statement, which talk about bringing art to people but have little mention of the Photography department, for example.
+                Additionally, type-oriented departments seem to be more focused on processing what they have rather than showing it off, which may be related to this lack of description.
+                Again, this section is literally titled "wild speculation" and should not be taken as fact.
+            </p>
+        </div>
+    </main>
+    <aside>
+        <div id="tooltip"></div>
+    </aside>
+
+    <script src='./main.js'></script>
+  </body>
+</html>

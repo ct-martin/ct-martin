@@ -1,0 +1,45 @@
+body {
+    background: black;
+}
+section, .columns {
+    margin-top:1em;
+}
+header {
+    background: #005cb9;
+    padding: 1em;
+}
+main {
+    padding: 1em;
+    width: 100%;
+}
+
+body, .title, .subtitle {
+    color: white;
+}
+@media print {
+    body, .title, .subtitle {
+        color: black;
+    }
+}
+p {
+    margin-bottom: 1em;
+}
+
+.chart-container {
+    margin: 0 auto 1em;
+}
+svg {
+    background: #1e2226;
+}
+/*svg rect, svg circle {
+    fill: #005cb9;
+}
+svg rect:hover, svg circle:hover {
+    fill: #57c1e8;
+}*/
+#tooltip {
+    background: black;
+    border: 2px solid #1e2226;
+    border-radius: 5px;
+    padding: 0.5em;
+}
