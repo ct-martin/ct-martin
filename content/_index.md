@@ -1,4 +1,6 @@
-### Hi there 👋
+---
+title: Hi there 👋
+---
 
 🎓 I'm a recent grad from RIT focusing on how people use technology to engage with culture
 
