@@ -4,7 +4,7 @@ date: Wed, 04 Apr 2018 05:04:46 +0000
 draft: false
 tags: ['Servers']
 aliases:
-  - "/2018/04/server-setup-pt-5-mail"
+  - "/blog/2018/04/server-setup-pt-5-mail"
 ---
 
 Mail servers are handy, even if you're just using them for internal logging like I am.
