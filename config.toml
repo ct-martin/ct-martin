@@ -69,6 +69,7 @@ title = "Christian Martin"
   description = "Christian Martin's Personal Site - Blog, Visualizations, Food, and more."
   readme_github_username = "ct-martin"
   sourceurl = "https://github.com/ct-martin/ct-martin/"
+  titleEmojis = true
 
 [permalinks]
   blog = "/:section/:year/:month/:filename/"

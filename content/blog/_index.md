@@ -1,3 +1,3 @@
 ---
-title: All Posts
+title: Blog
 ---
