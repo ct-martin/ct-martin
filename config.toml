@@ -67,6 +67,7 @@ title = "Christian Martin"
   author = "Christian Martin"
   authorLinks = ["https://ctmartin.dev/", "https://github.com/ct-martin", "https://gitlab.com/ctmartin", "https://twitter.com/_ctmartin"]
   description = "Christian Martin's Personal Site - Blog, Visualizations, Food, and more."
+  readme_github_username = "ct-martin"
   sourceurl = "https://github.com/ct-martin/ct-martin/"
 
 [permalinks]
