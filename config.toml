@@ -1,11 +1,51 @@
 baseURL = "https://ctmartin.me/"
+copyright = "© 2020 Christian Martin"
+disableHugoGeneratorInject = true
+enableEmoji = true
 languageCode = "en-us"
+paginatePath = ""
+theme = ["ctmartin"]
 title = "Christian Martin"
-theme = "ctmartin"
+
+[Authors.ctmartin]
+  given_name = "Christian"
+  family_name = "Martin"
+  display_name = "Christian Martin"
+[Authors.ctmartin.social]
+    website = "https://ctmartin.me/"
+    github = "ct-martin"
+    twitter = "_ctmartin"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    noClasses = false
 
 [mediaTypes]
   [mediaTypes."text/markdown"]
     suffixes = ["md"]
+
+#[[menu.main]]
+#    name = "Sections"
+#    idenfifier = "posts"
+#    url = "/"
+#    weight = 10
+#[[menu.main]]
+#    name = "Tags"
+#    idenfifier = "tags"
+#    url = "/tags"
+#    weight = 11
+[[menu.main]]
+    name = "Portfolio"
+    idenfifier = "portfolio"
+    url = "https://ctmartin.dev/"
+    weight = 20
+[[menu.main]]
+    name = "About"
+    idenfifier = "about"
+    url = "https://ctmartin.dev/about"
+    weight = 30
 
 [outputFormats]
   [outputFormats.README]
@@ -17,7 +57,20 @@ theme = "ctmartin"
     notAlternative = true
 
 [outputs]
-  home = ["HTML", "README"]
-  page = []
-  taxonomy = []
-  taxonomyTerm = []
+  home = ["HTML", "JSON", "README", "RSS"]
+  page = ["HTML"]
+  section = ["HTML", "JSON", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML", "RSS"]
+
+[params]
+  author = "Christian Martin"
+  authorLinks = ["https://ctmartin.dev/", "https://github.com/ct-martin", "https://gitlab.com/ctmartin", "https://twitter.com/_ctmartin"]
+  description = "Christian Martin's Personal Site - Blog, Visualizations, Food, and more."
+  sourceurl = "https://github.com/ct-martin/ct-martin/"
+
+[permalinks]
+  blog = "/:section/:year/:month/:filename/"
+
+#[Social]
+#  twitter = "_ctmartin"
