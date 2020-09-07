@@ -1,0 +1,30 @@
+name: Update README
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '!README.md'
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repo
+      uses: actions/checkout@v2
+    - name: Install Hugo
+      run: |-
+        snap install hugo --channel=extended
+    - name: Build
+      run: |-
+        hugo
+        mv public/readme.md README.md
+    - name: Commit and push if README changed
+      run: |-
+        git diff
+        git config --global user.email "no-reply+bot@ctmartin.me"
+        git config --global user.name "CTMartin Bot"
+        git diff --quiet || (git add README.md && git commit -m "Updated README")
+        git push
