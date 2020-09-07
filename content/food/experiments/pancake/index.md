@@ -1,7 +1,7 @@
 ---
 title: The Great Pancake Experiment
 date: 29 Mar 2020
-aliases: ['/pancake']
+aliases: ['/food/pancake']
 type: vis
 libs: ['papaparse', 'plotly']
 ---

@@ -1,7 +1,6 @@
 ---
 title: Cleveland Museum of Art Collection Statistics
 date: 23 Jan 2020
-alises: ['/museum/cma']
 ---
 
 Taking a look into the open access data for the Cleveland Museum of Art.

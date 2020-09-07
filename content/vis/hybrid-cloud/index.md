@@ -4,7 +4,7 @@ date: 2020-08-12
 libs:
 - mermaid
 related:
-- "/api-in-mermaid"
+- "/vis/api-in-mermaid"
 ---
 Since I haven't posted about servers in a while, I thought I'd take a look at how I'm utilizing a hybrid cloud for my infrastructure.
 

@@ -1,7 +1,7 @@
 ---
 title: Jello Experiment
 date: 24 May 2020
-aliases: ['/jello']
+aliases: ['/food/jello']
 type: vis
 libs: ['papaparse', 'plotly']
 ---
