@@ -1,7 +1,7 @@
 ---
 title: Turkish Lentil Soup
 date: 11 Feb 2020
-aliases: ['/turkish-lentil-soup', '/recipes/turkish-lentil-soup']
+aliases: ['/food/recipe/turkish-lentil-soup']
 
 cookTime: "25M"
 prepTime: "15M"

@@ -2,6 +2,7 @@
 title: "\"Andy Chai\""
 date: 05 Apr 2020
 draft: false
+alises: ['/food/recipe/andy-chai']
 
 cookTime: "30M"
 prepTime: "5M"
