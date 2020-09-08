@@ -40,5 +40,5 @@ jobs:
         rsync -avz --delete --progress -e $RSYNC_COMMAND public/ ci@$SERVER:~/www/ctmartin.me
       env:
         SERVER: ${{ secrets.RSYNC_REMOTE_HOST }}
-        RSYNC_COMMAND: "ssh -i ~/.ssh/id -o StrictHostKeyChecking=no -o IdentitiesOnly=yes -o UserKnownHostsFile=/dev/null"
+        RSYNC_COMMAND: "ssh -i ~/.ssh/id -o IdentitiesOnly=yes -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no"
         SECRET_REMOTE_IP: ${{ secrets.REMOTE_IP }}
