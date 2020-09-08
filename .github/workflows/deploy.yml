@@ -39,7 +39,7 @@ jobs:
       run: |-
         rsync -avz --delete --progress -e $RSYNC_COMMAND public/ ci@$SERVER:~/www/ctmartin.me
       env:
-        SERVER: ${{ secret.RSYNC_REMOTE_HOST }}
+        SERVER: ${{ secrets.RSYNC_REMOTE_HOST }}
         RSYNC_COMMAND: "ssh -i ~/.ssh/id -o StrictHostKeyChecking=no -o IdentitiesOnly=yes -o UserKnownHostsFile=/dev/null"
       with:
-        SECRET_REMOTE_IP: ${{ secret.REMOTE_IP }}
+        SECRET_REMOTE_IP: ${{ secrets.REMOTE_IP }}
