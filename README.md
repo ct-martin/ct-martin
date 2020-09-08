@@ -19,10 +19,10 @@ Here are some ideas to get you started:
 
 💻 Interests include:
 * 📑 metadata
-* 📈 [visualization](https://vis.ctmartin.me/)
+* 📈 [visualization](https://ctmartin.me/vis/)
 * 🖊️ rich content editing
-* 🏛 [museums & cultural institutions](https://vis.ctmartin.me/museums/)
-* 🥞 [food](https://food.ctmartin.me/)
+* 🏛 [museums & cultural institutions](https://ctmartin.me/vis/museums/)
+* 🥞 [food](https://ctmartin.me/food/)
 
 🍵 Tea drinker
 
