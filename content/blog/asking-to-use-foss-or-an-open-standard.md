@@ -22,7 +22,7 @@ Depending on the professor, they might have advice from previous students doing 
 ## 3\. Propose your alternative
 
 GIMP, Inkscape, whatever you plan to use.
-This might also be what format you want to submitt in.
+This might also be the format you want to submit in.
 I've also found that the professor might not care as long as it's submitted in something that opens with what they're using.
 
 ## 4\. Give a good reason
