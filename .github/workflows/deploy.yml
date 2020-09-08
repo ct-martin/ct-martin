@@ -41,3 +41,9 @@ jobs:
       env:
         SERVER: ${{ secrets.RSYNC_REMOTE_HOST }}
         SECRET_REMOTE_IP: ${{ secrets.REMOTE_IP }}
+    - name: Purge Cache
+      run: |-
+        curl -X POST "https://api.cloudflare.com/client/v4/zones/$CLOUDFLARE_ZONE/purge_cache" -H "Authorization: Bearer $CLOUDFLARE_API_KEY" -H "Content-Type: application/json" --data '{"purge_everything":true}'
+      env:
+        CLOUDFLARE_API_KEY: ${{ secrets.CLOUDFLARE_API_KEY }}
+        CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE }}
