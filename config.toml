@@ -44,7 +44,7 @@ title = "Christian Martin"
 [[menu.main]]
     name = "About"
     idenfifier = "about"
-    url = "https://ctmartin.dev/about"
+    url = "/about"
     weight = 30
 
 [outputFormats]
