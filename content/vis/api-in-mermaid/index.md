@@ -1,7 +1,7 @@
 ---
 title: My Site API shown via Mermaid
 date: 2020-04-19
-libs: ['mermaid', 'vega-lite']
+libs: ['mermaid', 'vega']
 type: vis
 ---
 
