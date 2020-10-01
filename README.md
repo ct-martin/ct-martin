@@ -27,11 +27,11 @@ Here are some ideas to get you started:
 🍵 Tea drinker
 
 📰 Recent Content:
+  * [📝 Site Analytics for Job Applications (30 Sep, 2020)](https://ctmartin.me/blog/2020/09/analytics-for-job-apps/)
   * [📈 Chartem Ipsum (14 Sep, 2020)](https://ctmartin.me/vis/chartem-ipsum/)
   * [📈 Hybrid Clouds (12 Aug, 2020)](https://ctmartin.me/vis/hybrid-cloud/)
   * [📝 Email Security (2 Jul, 2020)](https://ctmartin.me/blog/2020/07/email-security/)
   * [📝 2020 First Half Retrospective (30 Jun, 2020)](https://ctmartin.me/blog/2020/06/2020-first-half/)
-  * [🥞 Jello Experiment (24 May, 2020)](https://ctmartin.me/food/experiments/jello/)
 
 <!-- Stats badges -->
 ![profile stats](https://github-readme-stats.vercel.app/api?username=ct-martin&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide=stars)
