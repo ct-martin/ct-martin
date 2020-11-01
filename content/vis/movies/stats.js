@@ -1,6 +1,7 @@
 window.addEventListener('load', () => {
     const dataURL = 'https://raw.githubusercontent.com/ct-martin/movie-collection/master/movies.csv';
-    const resultsDiv = document.querySelector('#do-vis-here');
+    const resultsDiv = document.createElement('div');
+    document.querySelector('article').appendChild(resultsDiv);
 
     const parseResults = (results) => {
         if(results.meta.aborted) {

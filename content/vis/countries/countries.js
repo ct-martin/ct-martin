@@ -1,9 +1,9 @@
 window.addEventListener('load', () => {
     const el = document.createElement('div');
     el.setAttribute('id', 'plotly-map');
-    document.querySelector('#do-vis-here').appendChild(el);
+    document.querySelector('article').appendChild(el);
 
-    Plotly.d3.csv('/countries/data.csv', (err, rows) => {
+    Plotly.d3.csv('data.csv', (err, rows) => {
         const unpack = (rows, key) => rows.map((row) => row[key]);
 
         const data = [{
