@@ -15,7 +15,8 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-🎓 I'm a recent grad from RIT focusing on how people use technology to engage with culture
+I create experiences that take data and make it useful to users.
+I have a particular interest in datasets based on human experiences, such as cultural collections and people-driven processes, as well as looking at why things happen and the impact of decisions based on data.
 
 💻 Interests include:
 * 📑 metadata
