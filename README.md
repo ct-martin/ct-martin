@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-I create experiences that take data and make it useful to users.
+I create experiences that take data and make it useful to people.
 I have a particular interest in datasets based on human experiences, such as cultural collections and people-driven processes, as well as looking at why things happen and the impact of decisions based on data.
 
 💻 Interests include:
