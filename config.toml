@@ -1,5 +1,5 @@
 baseURL = "https://ctmartin.me/"
-copyright = "© 2020 Christian Martin"
+copyright = "© 2022 Christian Martin"
 disableHugoGeneratorInject = true
 enableEmoji = true
 languageCode = "en-us"
