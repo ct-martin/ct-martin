@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-<!--
+&lt;!--
 **ct-martin/ct-martin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
@@ -13,7 +13,7 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
+--&gt;
 
 I create experiences that take data and make it useful to people.
 I have a particular interest in datasets based on human experiences, such as cultural collections and people-driven processes, as well as looking at why things happen and the impact of decisions based on data.
@@ -22,7 +22,7 @@ I have a particular interest in datasets based on human experiences, such as cul
 * 📑 metadata
 * 📈 [visualization](https://ctmartin.me/vis/)
 * 🖊️ rich content editing
-* 🏛 [museums & cultural institutions](https://ctmartin.me/vis/museums/)
+* 🏛 [museums &amp; cultural institutions](https://ctmartin.me/vis/museums/)
 * 🥞 [food](https://ctmartin.me/food/)
 
 🍵 Tea drinker
@@ -34,7 +34,7 @@ I have a particular interest in datasets based on human experiences, such as cul
   * [📝 Email Security (2 Jul, 2020)](https://ctmartin.me/blog/2020/07/email-security/)
   * [📝 2020 First Half Retrospective (30 Jun, 2020)](https://ctmartin.me/blog/2020/06/2020-first-half/)
 
-<!-- Stats badges -->
+
 ![profile stats](https://github-readme-stats.vercel.app/api?username=ct-martin&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide=stars)
 
 This README was auto-generated! [See the code here](https://github.com/ct-martin/ct-martin/)
