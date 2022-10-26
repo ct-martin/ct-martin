@@ -47,17 +47,8 @@ title = "Christian Martin"
     url = "/about"
     weight = 30
 
-[outputFormats]
-  [outputFormats.README]
-    baseName = "README"
-    isPlainText = true
-    mediaType = "text/markdown"
-    protocol = ""
-    path = ".."
-    notAlternative = true
-
 [outputs]
-  home = ["HTML", "JSON", "README", "RSS"]
+  home = ["HTML", "JSON", "MARKDOWN", "RSS"]
   page = ["HTML"]
   section = ["HTML", "JSON", "RSS"]
   taxonomy = ["HTML", "RSS"]
