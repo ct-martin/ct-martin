@@ -26,7 +26,7 @@ jobs:
         hugo
     - name: Remove README output
       run: |-
-        rm public/readme.md
+        rm public/index.md
     - name: Set up SSH Key for deploy
       run: |-
         mkdir ~/.ssh
