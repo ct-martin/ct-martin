@@ -1,7 +1,6 @@
 ---
 title: Hi there 👋
 ---
-
 <!--
 **ct-martin/ct-martin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -22,9 +21,9 @@ I have a particular interest in datasets based on human experiences, such as cul
 
 💻 Interests include:
 * 📑 metadata
-* 📈 [visualization](https://ctmartin.me/vis/)
+* 📈 [visualization](/vis/)
 * 🖊️ rich content editing
-* 🏛 [museums & cultural institutions](https://ctmartin.me/vis/museums/)
-* 🥞 [food](https://ctmartin.me/food/)
+* 🏛 [museums & cultural institutions](/vis/museums/)
+* 🥞 [food](/food/)
 
 🍵 Tea drinker
