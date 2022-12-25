@@ -3,7 +3,7 @@ title: The Great Pancake Experiment
 date: 29 Mar 2020
 aliases: ['/food/pancake']
 type: vis
-libs: ['papaparse', 'plotly']
+libs: ['papaparse', 'plotly', 'resource-scripts']
 ---
 Pancakes are fun to play with; they have endless possibilities.
 Due to being inherently bland-ish, like plain bread, that means they can be flavored extensively.
@@ -52,3 +52,5 @@ This was originally out of convenience before I started the experiment, but I've
 
 Radius of plot points indicates how many pancakes are at that taste & normalness rating.
 Each pancake's flavor combination is on its own line in the hover tooltip.
+
+{{<div id="do-vis-here">}}

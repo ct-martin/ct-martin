@@ -3,7 +3,7 @@ title: Seltzer Experiments
 date: 11 May 2020
 aliases: ['/food/seltzer']
 type: vis
-libs: ['papaparse', 'plotly']
+libs: ['papaparse', 'plotly', 'resource-scripts']
 ---
 
 [The Great Pancake Experiment](/pancake), but with seltzer... and I used roommates as blind taste testers.
@@ -11,3 +11,5 @@ libs: ['papaparse', 'plotly']
 <!--more-->
 
 (Chart is my opinions, see table for group ratings)
+
+{{<div id="do-vis-here">}}
