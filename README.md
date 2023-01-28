@@ -15,9 +15,16 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-I create experiences that take data and make it useful to people.
-I have a particular interest in datasets based on human experiences, such as cultural collections and people-driven processes, as well as looking at why things happen and the impact of decisions based on data.
+I love making data useful to people!
+My skills are best in data manipulation, systems administration/engineering, and untangling complicated data/lineages.
 
+Recently I've been busy with work and starting graduate school but thankfully I'm back in a position where I can start updating my projects again.
+Keep an eye out for new content and check out [my resume](https://ctmartin.dev/resume) in the meantime.
+If you're intersted in something I haven't posted yet, send me an email and I'll be happy to talk!
+
+Outside of work and school I enjoy tea, immersive experiences, and my data side-hobby is datasets of cultural institutions.
+
+<!--
 💻 Interests include:
 * 📑 metadata
 * 📈 [visualization](https://ctmartin.me/vis/)
@@ -26,13 +33,9 @@ I have a particular interest in datasets based on human experiences, such as cul
 * 🥞 [food](https://ctmartin.me/food/)
 
 🍵 Tea drinker
+-->
 
-📰 Recent Content:
-  * [📝 Site Analytics for Job Applications (30 Sep, 2020)](https://ctmartin.me/blog/2020/09/analytics-for-job-apps/)
-  * [📈 Chartem Ipsum (14 Sep, 2020)](https://ctmartin.me/vis/chartem-ipsum/)
-  * [📈 Hybrid Clouds (12 Aug, 2020)](https://ctmartin.me/vis/hybrid-cloud/)
-  * [📝 Email Security (2 Jul, 2020)](https://ctmartin.me/blog/2020/07/email-security/)
-  * [📝 2020 First Half Retrospective (30 Jun, 2020)](https://ctmartin.me/blog/2020/06/2020-first-half/)
+
 
 <!-- Stats badges -->
 ![profile stats](https://github-readme-stats.vercel.app/api?username=ct-martin&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide=stars)
