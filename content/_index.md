@@ -16,9 +16,16 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-I create experiences that take data and make it useful to people.
-I have a particular interest in datasets based on human experiences, such as cultural collections and people-driven processes, as well as looking at why things happen and the impact of decisions based on data.
+I love making data useful to people!
+My skills are best in data manipulation, systems administration/engineering, and untangling complicated data/lineages.
 
+Recently I've been busy with work and starting graduate school but thankfully I'm back in a position where I can start updating my projects again.
+Keep an eye out for new content and check out [my resume](https://ctmartin.dev/resume) in the meantime.
+If you're intersted in something I haven't posted yet, send me an email and I'll be happy to talk!
+
+Outside of work and school I enjoy tea, immersive experiences, and my data side-hobby is datasets of cultural institutions.
+
+<!--
 💻 Interests include:
 * 📑 metadata
 * 📈 [visualization](/vis/)
@@ -27,3 +34,4 @@ I have a particular interest in datasets based on human experiences, such as cul
 * 🥞 [food](/food/)
 
 🍵 Tea drinker
+-->
