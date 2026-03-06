@@ -19,8 +19,7 @@ Here are some ideas to get you started:
 I love making data useful to people!
 My skills are best in data manipulation, systems administration/engineering, and untangling complicated data/lineages.
 
-Recently I've been busy with work and starting graduate school but thankfully I'm back in a position where I can start updating my projects again.
-Keep an eye out for new content and check out [my resume](https://ctmartin.dev/resume) in the meantime.
+Currently, you can find my projects on [my portfolio](https://ctmartin.dev/resume).
 If you're intersted in something I haven't posted yet, send me an email and I'll be happy to talk!
 
 Outside of work and school I enjoy tea, immersive experiences, and my data side-hobby is datasets of cultural institutions.
